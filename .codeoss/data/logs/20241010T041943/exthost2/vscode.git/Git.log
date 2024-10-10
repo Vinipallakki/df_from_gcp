@@ -1,0 +1,25 @@
+2024-10-10 05:55:23.946 [info] Log level: Info
+2024-10-10 05:55:23.946 [info] Validating found git in: "git"
+2024-10-10 05:55:23.947 [info] Using git "2.43.0" from "git"
+2024-10-10 05:55:23.947 [info] > git rev-parse --show-toplevel [77ms]
+2024-10-10 05:55:27.485 [info] > git rev-parse --git-dir --git-common-dir [3565ms]
+2024-10-10 05:55:27.508 [info] Open repository: /home/youwantsomethings
+2024-10-10 05:55:27.791 [info] > git rev-parse --show-toplevel [178ms]
+2024-10-10 05:55:27.793 [info] > git config --get commit.template [225ms]
+2024-10-10 05:55:28.291 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/df_gcp_last refs/remotes/df_gcp_last [345ms]
+2024-10-10 05:55:28.293 [info] > git rev-parse --show-toplevel [419ms]
+2024-10-10 05:55:28.376 [info] > git check-ignore -v -z --stdin [88ms]
+2024-10-10 05:55:28.389 [info] > git rev-parse --show-toplevel [43ms]
+2024-10-10 05:55:28.465 [info] > git rev-parse --show-toplevel [16ms]
+2024-10-10 05:55:28.570 [info] > git rev-parse --show-toplevel [69ms]
+2024-10-10 05:55:28.661 [info] > git status -z -uall [240ms]
+2024-10-10 05:55:28.754 [info] > git rev-parse --show-toplevel [150ms]
+2024-10-10 05:55:28.851 [info] > git merge-base refs/heads/df_gcp_last refs/remotes/origin/df_gcp_last [144ms]
+2024-10-10 05:55:29.014 [info] > git rev-list --count --left-right refs/heads/df_gcp_last...refs/remotes/origin/df_gcp_last [134ms]
+2024-10-10 05:55:29.045 [info] > git rev-parse --show-toplevel [195ms]
+2024-10-10 05:55:29.047 [info] > git config --get commit.template [222ms]
+2024-10-10 05:55:29.130 [info] > git diff --name-status -z --diff-filter=ADMR a5afabece3b94e5a086bb929f7ecb944d08dd766...refs/remotes/origin/df_gcp_last [86ms]
+2024-10-10 05:55:29.166 [info] > git rev-parse --show-toplevel [92ms]
+2024-10-10 05:55:29.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/df_gcp_last refs/remotes/df_gcp_last [43ms]
+2024-10-10 05:55:29.247 [info] > git rev-parse --show-toplevel [44ms]
+2024-10-10 05:55:29.337 [info] > git rev-parse --show-toplevel [6ms]

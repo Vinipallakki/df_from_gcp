@@ -95,3 +95,92 @@
 
 2024-10-10 04:47:31.664 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
 
+2024-10-10 05:08:01.317 [info] ERROR:pygls.protocol:Failed to handle request 109 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=25:0-25:0, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes
+    return [
+           ^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source
+    with io.open(self.path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+
+2024-10-10 05:08:01.321 [info] [Error - 5:08:01 AM] Request textDocument/codeAction failed.
+2024-10-10 05:08:01.321 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action\n    extract_variable_changes = text_edit_utils.lsp_document_changes(\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes\n    return [\n           ^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits\n    text_edits = lsp_text_edits(document, changed_file)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits\n    old_code = document.source\n               ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source\n    with io.open(self.path, \'r\', encoding=\'utf-8\') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n']}
+2024-10-10 05:08:53.748 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "128"
+
+2024-10-10 05:08:55.750 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "129"
+
+2024-10-10 05:08:57.765 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "130"
+
+2024-10-10 05:09:02.316 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "131"
+
+2024-10-10 05:09:02.320 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "135"
+
+2024-10-10 05:09:02.321 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "132"
+
+2024-10-10 05:09:02.352 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "136"
+
+2024-10-10 05:09:05.563 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "138"
+
+2024-10-10 05:09:07.371 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "139"
+
+2024-10-10 05:09:07.372 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "137"
+
+2024-10-10 05:09:07.374 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "134"
+
+2024-10-10 05:09:08.247 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "140"
+
+2024-10-10 05:09:09.105 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "143"
+
+2024-10-10 05:09:20.151 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "147"
+WARNING:pygls.protocol:Cancel notification for unknown message id "148"
+
+2024-10-10 05:09:23.376 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "149"
+
+2024-10-10 05:09:23.378 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "150"
+
+2024-10-10 05:09:23.417 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "152"
+
+2024-10-10 05:15:51.479 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "196"
+
+2024-10-10 05:16:34.139 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "211"
+
+2024-10-10 05:16:34.171 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "212"
+
+2024-10-10 05:16:34.173 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "214"
+
+2024-10-10 05:28:21.541 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "239"
+
+2024-10-10 05:28:21.550 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "240"
+
+2024-10-10 05:28:21.570 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "241"
+
+2024-10-10 05:38:30.299 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "277"
+
+2024-10-10 05:38:30.567 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "278"
+
+2024-10-10 05:38:30.592 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "279"
+
+2024-10-10 05:38:30.602 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "281"
+
+2024-10-10 05:38:30.612 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "282"
+
+2024-10-10 05:47:09.030 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "302"
+
