@@ -27,7 +27,7 @@ def run(argv=None):
     google_cloud_options.temp_location = 'gs://banded-edge-437103-i9/temp'
 
     # Set the runner directly on options
-    options.view_as(PipelineOptions).runner = 'DirectRunner'  # Use 'DirectRunner' for local testing
+    options.view_as(PipelineOptions).runner = 'DataflowRunner'  # Use 'DirectRunner' for local testing
 
     with beam.Pipeline(options=options) as p:
         # Read from Pub/Sub

@@ -210,3 +210,10 @@ ls
 python iot_real_time.py
 clar
 clear
+python iot_real_time.py
+gcloud iam service-accounts enable 627003217872-compute@developer.gserviceaccount.com
+python iot_real_time.py
+clear
+python iot_real_time.py
+pip show apache-beam
+python iot_real_time.py

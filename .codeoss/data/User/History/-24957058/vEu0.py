@@ -1,7 +1,6 @@
 import json
 import apache_beam as beam
-from apache_beam.options.pipeline_options import PipelineOptions
-from apache_beam.options.pipeline_options import GoogleCloudOptions
+from apache_beam.options.pipeline_options import PipelineOptions, SetupOptions, GoogleCloudOptions
 from google.cloud import bigquery
 
 # Function to parse JSON strings into dictionary objects
@@ -20,14 +19,11 @@ def write_to_bq(data):
 
 def run(argv=None):
     options = PipelineOptions(argv=argv)
-    
-    # Configure Google Cloud options
-    google_cloud_options = options.view_as(GoogleCloudOptions)
-    google_cloud_options.project = 'banded-edge-437103-i9'
-    google_cloud_options.temp_location = 'gs://banded-edge-437103-i9/temp'
-
-    # Set the runner directly on options
-    options.view_as(PipelineOptions).runner = 'DirectRunner'  # Use 'DirectRunner' for local testing
+    # Configure Dataflow options
+    dataflow_options = options.view_as(GoogleCloudOptions)
+    dataflow_options.project = 'banded-edge-437103-i9'
+    dataflow_options.runner = 'DataflowRunner'  # Use 'DirectRunner' for local testing
+    dataflow_options.temp_location = 'gs://banded-edge-437103-i9/temp'
 
     with beam.Pipeline(options=options) as p:
         # Read from Pub/Sub
