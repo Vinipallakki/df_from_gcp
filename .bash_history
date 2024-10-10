@@ -159,3 +159,12 @@ clear
 gcloud dataflow jobs run testjobs --gcs-location gs://hello_hi_9665/templete --max-workers 10
 python real_dataflow_etl.py
 gcloud dataflow jobs run testjobss --gcs-location gs://hello_hi_9665/templete --max-workers 10
+source /home/youwantsomethings/beam_env/bin/activate
+git config --global user.name "Vinipallakki"
+git config --global user.email "vinayakapallakki@gmail.com" 
+git remote add origin https://github.com/Vinipallakki/df_from_gcp.git
+git remote -v
+origin  https://github.com/Vinipallakki/df_from_gcp.git (fetch)
+origin  https://github.com/Vinipallakki/df_from_gcp.git (push)
+origin  https://github.com/Vinipallakki/df_from_gcp.git
+https://github.com/Vinipallakki/df_from_gcp.git
