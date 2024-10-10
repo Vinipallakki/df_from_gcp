@@ -174,3 +174,10 @@ git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/Vinipallakki/df_from_gcp.git
 git push -u origin master
+git push -u origin main
+git pull
+git pull origin main
+git config pull.rebase false
+git pull origin main
+git pull origin main --allow-unrelated-histories
+git commit -m "Resolved merge conflicts"
