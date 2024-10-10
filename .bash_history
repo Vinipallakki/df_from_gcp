@@ -170,3 +170,7 @@ origin  https://github.com/Vinipallakki/df_from_gcp.git
 https://github.com/Vinipallakki/df_from_gcp.git
 clear
 git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/Vinipallakki/df_from_gcp.git
+git push -u origin master

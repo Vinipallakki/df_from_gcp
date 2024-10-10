@@ -919,3 +919,141 @@ If you wish to set tracking information for this branch you can do so with:
 2024-10-10 04:53:15.808 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
 2024-10-10 04:53:15.808 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
 2024-10-10 04:53:15.808 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:53:18.174 [info] > git ls-files --stage -- /home/youwantsomethings/final_real.py [12ms]
+2024-10-10 04:53:18.202 [info] > git cat-file -s 565bef082d1604302051ae583a0de5679d9f2f6d [2ms]
+2024-10-10 04:53:18.289 [info] > git show --textconv :final_real.py [10ms]
+2024-10-10 04:53:20.994 [info] > git config --get commit.template [28ms]
+2024-10-10 04:53:20.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 04:53:21.146 [info] > git status -z -uall [126ms]
+2024-10-10 04:53:21.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:53:21.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [7ms]
+2024-10-10 04:53:21.290 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-10-10 04:53:21.291 [warning] git config failed: Failed to execute git
+2024-10-10 04:53:21.321 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-10-10 04:53:21.349 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-10-10 04:53:21.349 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-10 04:53:21.349 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:53:21.349 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:53:21.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:53:21.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:53:21.511 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-10 04:53:21.511 [warning] git config failed: Failed to execute git
+2024-10-10 04:53:21.541 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [4ms]
+2024-10-10 04:53:21.569 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-10 04:53:21.569 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-10 04:53:21.569 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:53:21.569 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:53:23.467 [info] > git ls-files --stage -- /home/youwantsomethings/final_real.py [13ms]
+2024-10-10 04:53:23.501 [info] > git cat-file -s 565bef082d1604302051ae583a0de5679d9f2f6d [2ms]
+2024-10-10 04:53:23.589 [info] > git show --textconv :final_real.py [9ms]
+2024-10-10 04:53:27.109 [info] > git config --get commit.template [28ms]
+2024-10-10 04:53:27.110 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 04:53:27.265 [info] > git status -z -uall [127ms]
+2024-10-10 04:53:27.344 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:53:27.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-10-10 04:53:27.405 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-10-10 04:53:27.405 [warning] git config failed: Failed to execute git
+2024-10-10 04:53:27.435 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-10-10 04:53:27.464 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-10 04:53:27.464 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-10 04:53:27.464 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:53:27.464 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:53:27.542 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:53:27.571 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:53:27.600 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-10-10 04:53:27.600 [warning] git config failed: Failed to execute git
+2024-10-10 04:53:27.629 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [4ms]
+2024-10-10 04:53:27.657 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-10 04:53:27.657 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-10 04:53:27.657 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:53:27.657 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:53:32.300 [info] > git config --get commit.template [2ms]
+2024-10-10 04:53:32.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 04:53:32.477 [info] > git status -z -uall [123ms]
+2024-10-10 04:53:37.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-10 04:53:37.533 [info] > git config --get commit.template [27ms]
+2024-10-10 04:53:37.680 [info] > git status -z -uall [124ms]
+2024-10-10 04:53:54.481 [info] > git config --get commit.template [29ms]
+2024-10-10 04:53:54.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-10 04:53:54.633 [info] > git status -z -uall [123ms]
+2024-10-10 04:53:59.690 [info] > git config --get commit.template [27ms]
+2024-10-10 04:53:59.691 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 04:53:59.766 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:53:59.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:53:59.836 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-10-10 04:53:59.836 [warning] git config failed: Failed to execute git
+2024-10-10 04:53:59.870 [info] > git status -z -uall [154ms]
+2024-10-10 04:53:59.872 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
+2024-10-10 04:53:59.901 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-10 04:53:59.901 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-10 04:53:59.901 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:53:59.901 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:54:01.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:54:01.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:54:01.307 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-10 04:54:01.307 [warning] git config failed: Failed to execute git
+2024-10-10 04:54:01.338 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [4ms]
+2024-10-10 04:54:01.368 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-10-10 04:54:01.368 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-10 04:54:01.368 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:54:01.368 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:54:01.448 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:54:01.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:54:01.508 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-10-10 04:54:01.508 [warning] git config failed: Failed to execute git
+2024-10-10 04:54:01.538 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-10-10 04:54:01.566 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-10 04:54:01.566 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-10 04:54:01.566 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:54:01.566 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:54:04.902 [info] > git config --get commit.template [2ms]
+2024-10-10 04:54:04.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 04:54:05.086 [info] > git status -z -uall [129ms]
+2024-10-10 04:54:05.606 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-10-10 04:54:05.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:54:05.665 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-10 04:54:05.665 [warning] git config failed: Failed to execute git
+2024-10-10 04:54:05.695 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-10-10 04:54:05.723 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-10 04:54:05.723 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-10 04:54:05.724 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:54:05.724 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:54:10.119 [info] > git config --get commit.template [3ms]
+2024-10-10 04:54:10.148 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 04:54:10.302 [info] > git status -z -uall [127ms]
+2024-10-10 04:54:15.360 [info] > git config --get commit.template [29ms]
+2024-10-10 04:54:15.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 04:54:15.521 [info] > git status -z -uall [131ms]
+2024-10-10 04:54:20.579 [info] > git config --get commit.template [29ms]
+2024-10-10 04:54:20.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-10 04:54:20.728 [info] > git status -z -uall [122ms]
+2024-10-10 04:54:25.785 [info] > git config --get commit.template [28ms]
+2024-10-10 04:54:25.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 04:54:25.938 [info] > git status -z -uall [126ms]
+2024-10-10 04:54:26.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:54:26.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:54:26.934 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-10 04:54:26.935 [warning] git config failed: Failed to execute git
+2024-10-10 04:54:26.964 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [4ms]
+2024-10-10 04:54:26.992 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-10 04:54:26.992 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-10 04:54:26.992 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:54:26.992 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:54:27.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:54:27.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-10-10 04:54:27.149 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-10 04:54:27.150 [warning] git config failed: Failed to execute git
+2024-10-10 04:54:27.183 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [4ms]
+2024-10-10 04:54:27.215 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-10-10 04:54:27.215 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-10 04:54:27.215 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:54:27.215 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-10-10 04:54:27.623 [info] > git check-ignore -v -z --stdin [11ms]
+2024-10-10 04:54:30.998 [info] > git config --get commit.template [29ms]
+2024-10-10 04:54:30.998 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-10 04:54:31.147 [info] > git status -z -uall [122ms]
+2024-10-10 04:54:36.206 [info] > git config --get commit.template [28ms]
+2024-10-10 04:54:36.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-10 04:54:36.357 [info] > git status -z -uall [124ms]
+2024-10-10 04:54:37.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-10-10 04:54:37.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
