@@ -1,0 +1,19 @@
+2024-10-08 15:26:50.702 [info] Default formatter is set to null for workspace /home/youwantsomethings
+2024-10-08 15:26:50.727 [info] Test server listening.
+2024-10-08 15:26:50.728 [info] Python interpreter path: /bin/python
+2024-10-08 15:26:50.972 [info] > pyenv which python
+2024-10-08 15:26:50.973 [info] cwd: .
+2024-10-08 15:26:57.333 [info] Starting Jedi language server for youwantsomethings.
+2024-10-08 15:27:18.791 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/realtime_dataflow.py
+2024-10-08 15:27:27.103 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/realtime_dataflow.py
+2024-10-08 15:27:49.134 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/realtime_dataflow.py
+2024-10-08 15:27:53.646 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/realtime_dataflow.py
+2024-10-08 15:27:55.794 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/realtime_dataflow.py
+2024-10-08 15:28:03.817 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/realtime_dataflow.py
+2024-10-08 15:28:15.395 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/realtime_dataflow.py
+2024-10-08 15:28:18.301 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/realtime_dataflow.py
+2024-10-08 15:28:18.575 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/realtime_dataflow.py
+2024-10-08 15:29:18.565 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pubs.py
+2024-10-08 15:29:57.748 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/youwantsomethings/requirements.txt
+2024-10-08 15:29:57.748 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-08 15:30:20.647 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pubs.py

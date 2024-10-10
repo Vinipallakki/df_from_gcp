@@ -1,0 +1,24 @@
+2024-10-09 11:04:40.191 [info] Default formatter is set to null for workspace /home/youwantsomethings
+2024-10-09 11:04:40.191 [info] Test server listening.
+2024-10-09 11:04:40.191 [info] Python interpreter path: ./beam_env/bin/python
+2024-10-09 11:04:40.653 [info] > pyenv which python
+2024-10-09 11:04:40.653 [info] cwd: .
+2024-10-09 11:04:46.735 [info] Starting Jedi language server for youwantsomethings.
+2024-10-09 11:11:43.711 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 11:12:10.818 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 11:12:39.994 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 11:12:40.556 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 11:12:45.354 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 11:13:30.310 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 11:14:15.454 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pubs.py
+2024-10-09 11:16:15.092 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pubs.py
+2024-10-09 11:20:55.001 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pubs.py
+2024-10-09 11:24:42.203 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 11:57:34.960 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 11:57:35.443 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 11:57:36.004 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 11:57:42.034 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 12:03:53.064 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 12:04:05.836 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 12:04:06.130 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-09 12:04:06.840 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py

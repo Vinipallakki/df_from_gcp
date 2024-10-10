@@ -1,0 +1,14 @@
+2024-10-08 10:59:25.771 [info] Default formatter is set to null for workspace /home/youwantsomethings
+2024-10-08 10:59:25.795 [info] Test server listening.
+2024-10-08 10:59:25.797 [info] Python interpreter path: /bin/python
+2024-10-08 10:59:26.009 [info] > pyenv which python
+2024-10-08 10:59:26.009 [info] cwd: .
+2024-10-08 10:59:31.340 [info] Starting Jedi language server for youwantsomethings.
+2024-10-08 10:59:34.378 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_etl.py
+2024-10-08 11:02:31.419 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pub.py
+2024-10-08 11:05:48.039 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pub.py
+2024-10-08 11:08:18.661 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-08 11:12:06.726 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-08 11:12:06.989 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-08 11:12:07.305 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py
+2024-10-08 11:13:55.454 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/real_dataflow_etl.py

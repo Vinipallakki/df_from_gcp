@@ -1,0 +1,70 @@
+2024-10-09 06:00:23.042 [info] Extension host with pid 1295 started
+2024-10-09 06:00:23.061 [info] Lock '/home/youwantsomethings/.codeoss/data/User/workspaceStorage/-1a8ceb9f/vscode.lock': Lock acquired.
+2024-10-09 06:00:23.125 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-09 06:00:23.235 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-09 06:00:23.245 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2024-10-09 06:00:23.609 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-09 06:00:23.610 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-09 06:00:24.239 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-10-09 06:00:25.058 [info] Eager extensions activated
+2024-10-09 06:00:25.059 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-10-09 06:00:25.059 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-10-09 06:00:25.060 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-09 06:00:25.061 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-09 06:00:25.061 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-09 06:00:28.549 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-09 06:00:28.550 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-09 06:06:36.510 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2024-10-09 06:06:36.510 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2024-10-09 06:06:36.511 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2024-10-09 06:06:37.252 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-10-09 06:06:37.313 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2024-10-09 06:06:37.767 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-10-09 06:45:11.183 [error] [ms-python.python] provider FAILED
+2024-10-09 06:45:11.210 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-09 06:45:11.729 [error] [ms-python.python] provider FAILED
+2024-10-09 06:45:11.729 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-09 06:45:12.725 [error] [ms-python.python] provider FAILED
+2024-10-09 06:45:12.726 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-09 07:25:22.407 [error] [ms-python.python] provider FAILED
+2024-10-09 07:25:22.407 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-09 07:44:51.256 [error] [ms-python.python] provider FAILED
+2024-10-09 07:44:51.257 [error] Error: AttributeError: 'Newline' object has no attribute 'children'
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-09 07:44:51.338 [error] [ms-python.python] provider FAILED
+2024-10-09 07:44:51.339 [error] Error: AttributeError: 'Newline' object has no attribute 'children'
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-09 07:44:52.307 [error] [ms-python.python] provider FAILED
+2024-10-09 07:44:52.307 [error] Error: AttributeError: 'Newline' object has no attribute 'children'
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-10-09 07:44:55.257 [error] [ms-python.python] provider FAILED
+2024-10-09 07:44:55.257 [error] Error: AttributeError: 'Newline' object has no attribute 'children'
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
