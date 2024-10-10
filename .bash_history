@@ -181,3 +181,4 @@ git config pull.rebase false
 git pull origin main
 git pull origin main --allow-unrelated-histories
 git commit -m "Resolved merge conflicts"
+gcloud pubsub topics publish temperature_topic --message "{\"timestamp\": \"2024-10-10T10:32:02Z\", \"temperature\": 25.6}"

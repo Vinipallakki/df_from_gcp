@@ -38,3 +38,9 @@
 2024-10-10 04:41:38.889 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2024-10-10 04:41:48.164 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2024-10-10 04:43:51.325 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2024-10-10 05:08:01.321 [error] [ms-python.python] provider FAILED
+2024-10-10 05:08:01.350 [error] Error: FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
