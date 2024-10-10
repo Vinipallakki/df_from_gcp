@@ -8,3 +8,6 @@
 2024-10-10 04:20:04.635 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/final_real.py
 2024-10-10 04:20:16.252 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/final_real.py
 2024-10-10 04:42:05.041 [info] Send text to terminal: source /home/youwantsomethings/beam_env/bin/activate
+2024-10-10 04:47:20.803 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2024-10-10 04:50:50.109 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/final_real.py
+2024-10-10 04:50:56.196 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/final_real.py

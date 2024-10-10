@@ -168,3 +168,5 @@ origin  https://github.com/Vinipallakki/df_from_gcp.git (fetch)
 origin  https://github.com/Vinipallakki/df_from_gcp.git (push)
 origin  https://github.com/Vinipallakki/df_from_gcp.git
 https://github.com/Vinipallakki/df_from_gcp.git
+clear
+git init
