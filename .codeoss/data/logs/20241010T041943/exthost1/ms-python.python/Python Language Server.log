@@ -1,0 +1,97 @@
+2024-10-10 04:20:00.863 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "3"
+
+2024-10-10 04:20:03.440 [info] file:///home/youwantsomethings/final_real.py:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:12.834 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "10"
+
+2024-10-10 04:20:12.835 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "9"
+
+2024-10-10 04:20:12.887 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:12.897 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:12.910 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "13"
+
+2024-10-10 04:20:13.115 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:13.125 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:14.016 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:14.027 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:15.276 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:15.287 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:17.006 [info] file:///home/youwantsomethings/final_real.py:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:34.307 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "21"
+
+2024-10-10 04:20:34.932 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:34.946 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:35.520 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:20:35.532 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:22:09.218 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "29"
+
+2024-10-10 04:22:10.859 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:28:18.535 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:28:18.545 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:28:30.982 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:28:31.224 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:28:31.235 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:36:51.133 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:36:51.143 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:36:51.615 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:36:51.625 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:44:54.477 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:44:54.488 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:46:39.849 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:46:39.860 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:46:40.098 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:46:40.176 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:46:50.913 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:46:50.924 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:46:51.133 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:46:51.186 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:47:14.126 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:47:14.136 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:47:14.341 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:47:14.405 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:47:31.330 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:47:31.368 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:47:31.611 [info] <unknown>:1: SyntaxWarning: invalid escape sequence '\ '
+
+2024-10-10 04:47:31.664 [info] <unknown>:2: SyntaxWarning: invalid escape sequence '\ '
+

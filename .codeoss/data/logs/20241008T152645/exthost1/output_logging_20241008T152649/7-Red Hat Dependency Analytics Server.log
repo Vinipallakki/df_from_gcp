@@ -1,0 +1,4 @@
+[Warn  - 3:34:10 PM] Component Analysis Error: Error: Package name=>def export_bq_to_gcs is not installed on your python environment,
+		                         either install it ( better to install requirements.txt altogether) or turn on
+		                         environment variable EXHORT_PYTHON_VIRTUAL_ENV=true to automatically installs
+		                          it on virtual environment ( will slow down the analysis) 

@@ -1,0 +1,234 @@
+2024-10-08 10:59:32.132 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1"
+
+2024-10-08 10:59:32.142 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2"
+
+2024-10-08 10:59:32.166 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "5"
+
+2024-10-08 10:59:32.188 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "6"
+
+2024-10-08 10:59:32.190 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "4"
+
+2024-10-08 11:02:06.124 [info] ERROR:pygls.protocol:Failed to handle request 21 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=4:25-4:25, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes
+    return [
+           ^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source
+    with io.open(self.path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+
+2024-10-08 11:02:06.126 [info] [Error - 11:02:06 AM] Request textDocument/codeAction failed.
+2024-10-08 11:02:06.126 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action\n    extract_variable_changes = text_edit_utils.lsp_document_changes(\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes\n    return [\n           ^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits\n    text_edits = lsp_text_edits(document, changed_file)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits\n    old_code = document.source\n               ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source\n    with io.open(self.path, \'r\', encoding=\'utf-8\') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n']}
+2024-10-08 11:02:08.150 [info] ERROR:pygls.protocol:Failed to handle request 24 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=4:23-4:25, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes
+    return [
+           ^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source
+    with io.open(self.path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+
+2024-10-08 11:02:08.151 [info] [Error - 11:02:08 AM] Request textDocument/codeAction failed.
+2024-10-08 11:02:08.151 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action\n    extract_variable_changes = text_edit_utils.lsp_document_changes(\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes\n    return [\n           ^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits\n    text_edits = lsp_text_edits(document, changed_file)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits\n    old_code = document.source\n               ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source\n    with io.open(self.path, \'r\', encoding=\'utf-8\') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n']}
+2024-10-08 11:02:08.459 [info] ERROR:pygls.protocol:Failed to handle request 25 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=4:17-4:25, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes
+    return [
+           ^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source
+    with io.open(self.path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+
+2024-10-08 11:02:08.460 [info] [Error - 11:02:08 AM] Request textDocument/codeAction failed.
+2024-10-08 11:02:08.460 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action\n    extract_variable_changes = text_edit_utils.lsp_document_changes(\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes\n    return [\n           ^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits\n    text_edits = lsp_text_edits(document, changed_file)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits\n    old_code = document.source\n               ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source\n    with io.open(self.path, \'r\', encoding=\'utf-8\') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n']}
+2024-10-08 11:02:08.753 [info] ERROR:pygls.protocol:Failed to handle request 26 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=4:12-4:25, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes
+    return [
+           ^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source
+    with io.open(self.path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+
+2024-10-08 11:02:08.754 [info] [Error - 11:02:08 AM] Request textDocument/codeAction failed.
+2024-10-08 11:02:08.754 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action\n    extract_variable_changes = text_edit_utils.lsp_document_changes(\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes\n    return [\n           ^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits\n    text_edits = lsp_text_edits(document, changed_file)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits\n    old_code = document.source\n               ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source\n    with io.open(self.path, \'r\', encoding=\'utf-8\') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n']}
+2024-10-08 11:02:10.381 [info] ERROR:pygls.protocol:Failed to handle request 27 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=4:17-4:17, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes
+    return [
+           ^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source
+    with io.open(self.path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+
+2024-10-08 11:02:10.382 [info] [Error - 11:02:10 AM] Request textDocument/codeAction failed.
+2024-10-08 11:02:10.382 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action\n    extract_variable_changes = text_edit_utils.lsp_document_changes(\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes\n    return [\n           ^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits\n    text_edits = lsp_text_edits(document, changed_file)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits\n    old_code = document.source\n               ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source\n    with io.open(self.path, \'r\', encoding=\'utf-8\') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n']}
+2024-10-08 11:02:11.149 [info] ERROR:pygls.protocol:Failed to handle request 29 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=4:18-4:18, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes
+    return [
+           ^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source
+    with io.open(self.path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+
+2024-10-08 11:02:11.150 [info] [Error - 11:02:11 AM] Request textDocument/codeAction failed.
+2024-10-08 11:02:11.150 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action\n    extract_variable_changes = text_edit_utils.lsp_document_changes(\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes\n    return [\n           ^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits\n    text_edits = lsp_text_edits(document, changed_file)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits\n    old_code = document.source\n               ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source\n    with io.open(self.path, \'r\', encoding=\'utf-8\') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n']}
+2024-10-08 11:02:11.409 [info] ERROR:pygls.protocol:Failed to handle request 30 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=4:19-4:19, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes
+    return [
+           ^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source
+    with io.open(self.path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+
+2024-10-08 11:02:11.410 [info] [Error - 11:02:11 AM] Request textDocument/codeAction failed.
+2024-10-08 11:02:11.410 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action\n    extract_variable_changes = text_edit_utils.lsp_document_changes(\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes\n    return [\n           ^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits\n    text_edits = lsp_text_edits(document, changed_file)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits\n    old_code = document.source\n               ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source\n    with io.open(self.path, \'r\', encoding=\'utf-8\') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n']}
+2024-10-08 11:02:29.482 [info] ERROR:pygls.protocol:Failed to handle request 36 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='untitled:Untitled-1'), range=7:32-7:32, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action
+    extract_variable_changes = text_edit_utils.lsp_document_changes(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes
+    return [
+           ^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits
+    text_edits = lsp_text_edits(document, changed_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits
+    old_code = document.source
+               ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source
+    with io.open(self.path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+
+2024-10-08 11:02:29.483 [info] [Error - 11:02:29 AM] Request textDocument/codeAction failed.
+2024-10-08 11:02:29.483 [info]   Message: FileNotFoundError: [Errno 2] No such file or directory: '/home/youwantsomethings/Untitled-1'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 586, in code_action\n    extract_variable_changes = text_edit_utils.lsp_document_changes(\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 47, in lsp_document_changes\n    return [\n           ^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 79, in lsp_text_document_edits\n    text_edits = lsp_text_edits(document, changed_file)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/text_edit_utils.py", line 107, in lsp_text_edits\n    old_code = document.source\n               ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/workspace.py", line 288, in source\n    with io.open(self.path, \'r\', encoding=\'utf-8\') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n']}

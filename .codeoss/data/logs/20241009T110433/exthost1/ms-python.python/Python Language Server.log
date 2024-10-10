@@ -1,0 +1,38 @@
+2024-10-09 11:04:48.326 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "2"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1"
+WARNING:pygls.protocol:Cancel notification for unknown message id "4"
+WARNING:pygls.protocol:Cancel notification for unknown message id "7"
+
+2024-10-09 11:13:58.339 [info] ERROR:pygls.protocol:Failed to handle request 38 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///home/youwantsomethings/pubs.py'), position=1:9, work_done_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 383, in hover
+    hover_text = jedi_utils.hover_text(
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 660, in hover_text
+    if _hover_ignore(name, initialization_options):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 640, in _hover_ignore
+    ignore_type: HoverDisableOptions = getattr(
+                                       ^^^^^^^^
+AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+
+2024-10-09 11:13:58.344 [info] [Error - 11:13:58 AM] Request textDocument/hover failed.
+2024-10-09 11:13:58.344 [info]   Message: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 383, in hover\n    hover_text = jedi_utils.hover_text(\n                 ^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 660, in hover_text\n    if _hover_ignore(name, initialization_options):\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 640, in _hover_ignore\n    ignore_type: HoverDisableOptions = getattr(\n                                       ^^^^^^^^\n']}
+2024-10-09 11:22:30.973 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "57"
+
+2024-10-09 11:22:30.975 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "58"
+
+2024-10-09 11:57:36.193 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "86"
+
+2024-10-09 12:03:46.920 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "101"
+
+2024-10-09 12:03:51.669 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "114"
+
