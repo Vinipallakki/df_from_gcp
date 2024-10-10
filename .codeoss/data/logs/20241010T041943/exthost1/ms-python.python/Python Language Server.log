@@ -158,3 +158,17 @@ WARNING:pygls.protocol:Cancel notification for unknown message id "148"
 
 2024-10-10 05:09:23.417 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "152"
 
+2024-10-10 05:15:51.479 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "196"
+
+2024-10-10 05:16:34.139 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "211"
+
+2024-10-10 05:16:34.171 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "212"
+
+2024-10-10 05:16:34.173 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "214"
+
+2024-10-10 05:28:21.541 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "239"
+
+2024-10-10 05:28:21.550 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "240"
+
+2024-10-10 05:28:21.570 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "241"
+

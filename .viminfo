@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1728380880,,"wq"
+|2,0,1728538213,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -25,26 +25,44 @@
 # Registers:
 
 # File marks:
-'0  51  0  ~/dataflow_etl.py
-|4,48,51,0,1728380880,"~/dataflow_etl.py"
-'1  3  0  ~/requirements.txt
-|4,49,3,0,1727770186,"~/requirements.txt"
-'2  27  0  ~/main.py
-|4,50,27,0,1727770145,"~/main.py"
-'3  9  49  ~/export_bq_to_gcs.py
-|4,51,9,49,1727770137,"~/export_bq_to_gcs.py"
-'4  9  50  ~/export_bq_to_gcs.py
-|4,52,9,50,1727769732,"~/export_bq_to_gcs.py"
+'0  13  0  ~/test.py
+|4,48,13,0,1728538213,"~/test.py"
+'1  51  0  ~/dataflow_etl.py
+|4,49,51,0,1728380880,"~/dataflow_etl.py"
+'2  3  0  ~/requirements.txt
+|4,50,3,0,1727770186,"~/requirements.txt"
+'3  27  0  ~/main.py
+|4,51,27,0,1727770145,"~/main.py"
+'4  9  49  ~/export_bq_to_gcs.py
+|4,52,9,49,1727770137,"~/export_bq_to_gcs.py"
+'5  9  50  ~/export_bq_to_gcs.py
+|4,53,9,50,1727769732,"~/export_bq_to_gcs.py"
 
 # Jumplist (newest first):
+-'  13  0  ~/test.py
+|4,39,13,0,1728538213,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1728538210,"~/test.py"
 -'  51  0  ~/dataflow_etl.py
 |4,39,51,0,1728380880,"~/dataflow_etl.py"
+-'  51  0  ~/dataflow_etl.py
+|4,39,51,0,1728380880,"~/dataflow_etl.py"
+-'  1  0  ~/dataflow_etl.py
+|4,39,1,0,1728380873,"~/dataflow_etl.py"
 -'  1  0  ~/dataflow_etl.py
 |4,39,1,0,1728380873,"~/dataflow_etl.py"
 -'  3  0  ~/requirements.txt
 |4,39,3,0,1727770186,"~/requirements.txt"
 -'  3  0  ~/requirements.txt
 |4,39,3,0,1727770186,"~/requirements.txt"
+-'  3  0  ~/requirements.txt
+|4,39,3,0,1727770186,"~/requirements.txt"
+-'  3  0  ~/requirements.txt
+|4,39,3,0,1727770186,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1727770174,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1727770174,"~/requirements.txt"
 -'  1  0  ~/requirements.txt
 |4,39,1,0,1727770174,"~/requirements.txt"
 -'  1  0  ~/requirements.txt
@@ -57,6 +75,22 @@
 |4,39,27,0,1727770145,"~/main.py"
 -'  27  0  ~/main.py
 |4,39,27,0,1727770145,"~/main.py"
+-'  27  0  ~/main.py
+|4,39,27,0,1727770145,"~/main.py"
+-'  27  0  ~/main.py
+|4,39,27,0,1727770145,"~/main.py"
+-'  27  0  ~/main.py
+|4,39,27,0,1727770145,"~/main.py"
+-'  27  0  ~/main.py
+|4,39,27,0,1727770145,"~/main.py"
+-'  1  0  ~/main.py
+|4,39,1,0,1727770142,"~/main.py"
+-'  1  0  ~/main.py
+|4,39,1,0,1727770142,"~/main.py"
+-'  1  0  ~/main.py
+|4,39,1,0,1727770142,"~/main.py"
+-'  1  0  ~/main.py
+|4,39,1,0,1727770142,"~/main.py"
 -'  1  0  ~/main.py
 |4,39,1,0,1727770142,"~/main.py"
 -'  1  0  ~/main.py
@@ -81,6 +115,22 @@
 |4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
 -'  9  49  ~/export_bq_to_gcs.py
 |4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
+-'  9  49  ~/export_bq_to_gcs.py
+|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
+-'  9  49  ~/export_bq_to_gcs.py
+|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
+-'  9  49  ~/export_bq_to_gcs.py
+|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
+-'  9  49  ~/export_bq_to_gcs.py
+|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
+-'  9  49  ~/export_bq_to_gcs.py
+|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
+-'  9  49  ~/export_bq_to_gcs.py
+|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
+-'  9  49  ~/export_bq_to_gcs.py
+|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
+-'  9  49  ~/export_bq_to_gcs.py
+|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
 -'  9  50  ~/export_bq_to_gcs.py
 |4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
 -'  9  50  ~/export_bq_to_gcs.py
@@ -97,6 +147,54 @@
 |4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
 -'  9  50  ~/export_bq_to_gcs.py
 |4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
+-'  9  50  ~/export_bq_to_gcs.py
+|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
+-'  9  50  ~/export_bq_to_gcs.py
+|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
+-'  9  50  ~/export_bq_to_gcs.py
+|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
+-'  9  50  ~/export_bq_to_gcs.py
+|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
+-'  9  50  ~/export_bq_to_gcs.py
+|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
+-'  9  50  ~/export_bq_to_gcs.py
+|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
+-'  9  50  ~/export_bq_to_gcs.py
+|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
+-'  9  50  ~/export_bq_to_gcs.py
+|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  1  0  ~/export_bq_to_gcs.py
+|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
 -'  1  0  ~/export_bq_to_gcs.py
 |4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
 -'  1  0  ~/export_bq_to_gcs.py
@@ -131,6 +229,13 @@
 |4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/test.py
+	*	1728538212	0
+	"	13	0
+	^	13	0
+	.	12	9
+	+	12	9
 
 > ~/dataflow_etl.py
 	*	1728380880	0

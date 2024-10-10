@@ -182,3 +182,31 @@ git pull origin main
 git pull origin main --allow-unrelated-histories
 git commit -m "Resolved merge conflicts"
 gcloud pubsub topics publish temperature_topic --message "{\"timestamp\": \"2024-10-10T10:32:02Z\", \"temperature\": 25.6}"
+ls
+python iot_real_time.py
+pip install apache-beam[gcp]
+python iot_real_time.py
+import apache_beam as beam
+print(beam.__version__)
+python --version
+pip install virtualenv
+virtualenv myvenv
+source myvenv/bin/activate
+pip install apache-beam[gcp]
+python iot_real_time.py
+pip install apache-beam[gcp]
+ls
+pwd
+python /home/youwantsomethings/iot_real_time.py
+pip install apache-beam
+pip install apache-beam[gcp]
+clear
+python /home/youwantsomethings/iot_real_time.py
+pip install --upgrade apache-beam[gcp]
+clear
+vi test.py
+python test.py
+ls
+python iot_real_time.py
+clar
+clear
