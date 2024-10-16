@@ -1,0 +1,23 @@
+2024-10-16 06:18:07.142 [info] Default formatter is set to null for workspace /home/youwantsomethings
+2024-10-16 06:18:07.169 [info] Test server listening.
+2024-10-16 06:18:07.172 [info] Python interpreter path: ./beam_env/bin/python
+2024-10-16 06:18:07.510 [info] > pyenv which python
+2024-10-16 06:18:07.510 [info] cwd: .
+2024-10-16 06:18:13.481 [info] Starting Jedi language server for youwantsomethings.
+2024-10-16 06:47:37.067 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:47:45.723 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:47:52.605 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:47:54.670 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:48:00.478 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:48:01.446 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:48:09.382 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:48:25.965 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:48:27.550 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:49:02.885 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:55:00.114 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:55:06.300 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:55:10.478 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:55:17.713 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:55:18.065 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:55:19.335 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 06:56:22.717 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py

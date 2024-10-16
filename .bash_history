@@ -217,3 +217,175 @@ clear
 python iot_real_time.py
 pip show apache-beam
 python iot_real_time.py
+ls
+clear
+ls
+vi stream.py
+rm stream.py
+ls
+vi stream.py
+ls
+vi req.sh
+vi pub.sh
+clear
+ls
+bash pub.sh
+vi user_generator.py
+bash pub.sh
+pip install faker
+bash pub.sh
+clear
+ls
+python3 -m pip install -q --upgrade pip setuptools wheel
+python3 -m pip install apache-beam[gcp]
+# Create GCS buckets and BQ dataset
+cd $BASE_DIR/../..
+source create_streaming_sinks.sh
+ls
+cd home
+ls
+cd youwantsomethings
+;s
+ls
+cd dataflow_python
+ls
+cd dataflow_python
+ls
+cd 5_Streaming_Analytics/
+ls
+cd solution/
+ls
+python3 streaming_minute_traffic_SQL_pipeline.py 	--project=${PROJECT_ID} 	--region=${REGION} 	--staging_location=${PIPELINE_FOLDER}/staging 	--temp_location=${PIPELINE_FOLDER}/temp 	--runner=${RUNNER} 	--input_topic=${PUBSUB_TOPIC} 	--table_name=${TABLE_NAME} 	--experiments=use_runner_v2
+export PROJECT_ID=$(gcloud config get-value project)
+export REGION=Region
+export BUCKET=gs://${PROJECT_ID}
+export PIPELINE_FOLDER=${BUCKET}
+export RUNNER=DataflowRunner
+export PUBSUB_TOPIC=projects/${PROJECT_ID}/topics/my_topic
+export TABLE_NAME=${PROJECT_ID}:logs.minute_traffic
+bash generate_streaming_events.sh 
+clear
+cleaer
+clear
+ls
+python streaming_minute_traffic_pipeline.py
+pwd
+cd ..
+l
+cd lab
+ls
+python3 streaming_minute_traffic_SQL_pipeline.py 	--project=${PROJECT_ID} 	--region=${REGION} 	--staging_location=${PIPELINE_FOLDER}/staging 	--temp_location=${PIPELINE_FOLDER}/temp 	--runner=${RUNNER} 	--input_topic=${PUBSUB_TOPIC} 	--table_name=${TABLE_NAME} 	--experiments=use_runner_v2
+ls
+python3 streaming_minute_traffic_SQL_pipeline.py 	--project=${PROJECT_ID} 	--region=${REGION} 	--staging_location=${PIPELINE_FOLDER}/staging 	--temp_location=${PIPELINE_FOLDER}/temp 	--runner=${RUNNER} 	--input_topic=${PUBSUB_TOPIC} 	--table_name=${TABLE_NAME} 	--experiments=use_runner_v2
+ls
+python3 streaming_minute_traffic_pipeline.py 	--project=${PROJECT_ID} 	--region=${REGION} 	--staging_location=${PIPELINE_FOLDER}/staging 	--temp_location=${PIPELINE_FOLDER}/temp 	--runner=${RUNNER} 	--input_topic=${PUBSUB_TOPIC} 	--table_name=${TABLE_NAME} 	--experiments=use_runner_v2
+clear
+ls
+python3 streaming_minute_traffic_pipeline.py 	--project=${PROJECT_ID} 	--region=${REGION} 	--staging_location=${PIPELINE_FOLDER}/staging 	--temp_location=${PIPELINE_FOLDER}/temp 	--runner=${RUNNER} 	--input_topic=${PUBSUB_TOPIC} 	--table_name=${TABLE_NAME} 	--experiments=use_runner_v2
+clear
+ls
+python3 streaming_minute_traffic_pipeline.py 	--project=${PROJECT_ID} 	--region=${REGION} 	--staging_location=${PIPELINE_FOLDER}/staging 	--temp_location=${PIPELINE_FOLDER}/temp 	--runner=${RUNNER} 	--input_topic=${PUBSUB_TOPIC} 	--table_name=${TABLE_NAME} 	--experiments=use_runner_v2
+clear
+ls
+cd dataflow_python
+ls
+cd 5_Streaming_Analytics
+ls
+cd solution
+ls
+python3 streaming_minute_traffic_pipeline.py 	--project=${PROJECT_ID} 	--region=${REGION} 	--staging_location=${PIPELINE_FOLDER}/staging 	--temp_location=${PIPELINE_FOLDER}/temp 	--runner=${RUNNER} 	--input_topic=${PUBSUB_TOPIC} 	--table_name=${TABLE_NAME} 	--experiments=use_runner_v2
+export PROJECT_ID=$(gcloud config get-value project)
+export REGION=Region
+export BUCKET=gs://${PROJECT_ID}
+export PIPELINE_FOLDER=${BUCKET}
+export RUNNER=DataflowRunner
+export PUBSUB_TOPIC=projects/${PROJECT_ID}/topics/my_topic
+export TABLE_NAME=${PROJECT_ID}:logs.minute_traffic
+clear
+python3 streaming_minute_traffic_pipeline.py 	--project=${PROJECT_ID} 	--region=${REGION} 	--staging_location=${PIPELINE_FOLDER}/staging 	--temp_location=${PIPELINE_FOLDER}/temp 	--runner=${RUNNER} 	--input_topic=${PUBSUB_TOPIC} 	--table_name=${TABLE_NAME} 	--experiments=use_runner_v2
+clear
+ls
+cd dataflow_python
+ls
+cd 5_Streaming_Analytics/
+ls
+cd solution/
+ls
+export PROJECT_ID=$(gcloud config get-value project)
+export REGION=Region
+export BUCKET=gs://${PROJECT_ID}
+export PIPELINE_FOLDER=${BUCKET}
+export RUNNER=DataflowRunner
+export PUBSUB_TOPIC=projects/${PROJECT_ID}/topics/my_topic
+export TABLE_NAME=${PROJECT_ID}:logs.minute_traffic
+python3 streaming_minute_traffic_pipeline.py 	--project=${PROJECT_ID} 	--region=${REGION} 	--staging_location=${PIPELINE_FOLDER}/staging 	--temp_location=${PIPELINE_FOLDER}/temp 	--runner=${RUNNER} 	--input_topic=${PUBSUB_TOPIC} 	--table_name=${TABLE_NAME} 	--experiments=use_runner_v2
+python3 streaming_minute_traffic_pipeline.py 	--project=${PROJECT_ID} 	--region=${REGION} 	--staging_location=${PIPELINE_FOLDER}/staging 	--temp_location=${PIPELINE_FOLDER}/temp 	--runner=${RUNNER} 	--input_topic=${PUBSUB_TOPIC} 	--table_name=${TABLE_NAME} 	--experiments=use_runner_v2
+	--agg_table_name=minute_traffic
+	--raw_table_name=minute_traffic
+clear
+export PROJECT_ID=$(gcloud config get-value project)
+export REGION=Region
+export BUCKET=gs://${PROJECT_ID}
+export PIPELINE_FOLDER=${BUCKET}
+export RUNNER=DataflowRunner
+export PUBSUB_TOPIC=projects/${PROJECT_ID}/topics/my_topic
+export TABLE_NAME=${PROJECT_ID}:logs.minute_traffic
+export Agg=${PROJECT_ID}:logs.minute_traffic
+export raw=${PROJECT_ID}:logs.minute_traffic
+python3 streaming_minute_traffic_pipeline.py 	--project=${PROJECT_ID} 	--region=${REGION} 	--staging_location=${PIPELINE_FOLDER}/staging 	--temp_location=${PIPELINE_FOLDER}/temp 	--runner=${RUNNER} 	--input_topic=${PUBSUB_TOPIC} 	--table_name=${TABLE_NAME} 	--experiments=use_runner_v2
+	--agg_table_name=${Agg}
+	--raw_table_name=${raw
+clear
+python3 streaming_minute_traffic_pipeline.py     --project=${PROJECT_ID}     --region=${REGION}     --staging_location=${PIPELINE_FOLDER}/staging     --temp_location=${PIPELINE_FOLDER}/temp     --runner=${RUNNER}     --input_topic=${PUBSUB_TOPIC}     --agg_table_name=${Agg}     --raw_table_name=${raw}     --window_duration=60     --experiments=use_runner_v2
+python3 streaming_minute_traffic_pipeline.py     --project=${PROJECT_ID}     --region=${REGION}     --staging_location=${PIPELINE_FOLDER}/staging     --temp_location=${PIPELINE_FOLDER}/temp     --runner=${RUNNER}     --input_topic=${PUBSUB_TOPIC}     --agg_table_name=${Agg}     --raw_table_name=${raw}     --window_duration=60  
+--region=us-central1
+clear
+python3 streaming_minute_traffic_pipeline.py     --project=${PROJECT_ID}     --region=us-central1     --staging_location=${PIPELINE_FOLDER}/staging     --temp_location=${PIPELINE_FOLDER}/temp     --runner=${RUNNER}     --input_topic=${PUBSUB_TOPIC}     --agg_table_name=${Agg}     --raw_table_name=${raw}     --window_duration=60     --experiments=use_runner_v2
+python3 streaming_minute_traffic_pipeline.py     --project=${PROJECT_ID}     --region=${REGION}     --staging_location=${PIPELINE_FOLDER}/staging     --temp_location=${PIPELINE_FOLDER}/temp     --runner=${RUNNER}     --input_topic=${PUBSUB_TOPIC}     --agg_table_name=${Agg}     --raw_table_name=${raw}     --window_duration=60  
+clear
+export PROJECT_ID=$(gcloud config get-value project)
+export REGION=us-central1
+export BUCKET=gs://${PROJECT_ID}
+export PIPELINE_FOLDER=${BUCKET}
+export RUNNER=DataflowRunner
+export PUBSUB_TOPIC=projects/${PROJECT_ID}/topics/my_topic
+export TABLE_NAME=${PROJECT_ID}:logs.minute_traffic
+export Agg=${PROJECT_ID}:logs.minute_traffic
+export raw=${PROJECT_ID}:logs.minute_traffic
+ls
+cd dataflow_python
+ls
+cd 5_
+cd 5_Streaming_Analytics/
+ls
+cd ..
+l
+bash generate_streaming_events.sh
+clear
+ls
+python streaming_event_generator.py
+bash generate_streaming_events.sh
+ls
+bash generate_streaming_events.sh
+python3 streaming_minute_traffic_pipeline.py     --project=${PROJECT_ID}     --region=${REGION}     --staging_location=${PIPELINE_FOLDER}/staging     --temp_location=${PIPELINE_FOLDER}/temp     --runner=${RUNNER}     --input_topic=${PUBSUB_TOPIC}     --agg_table_name=${Agg}     --raw_table_name=${raw}     --window_duration=60  
+clear
+LETE
+vi input_data.csv
+ls
+gs cp input_data.csv gs://banded-edge-437103-i9
+gsutil cp input_data.csv gs://banded-edge-437103-i9
+gcloud dataproc clusters describe my-first-cluster \ 
+gcloud dataproc clusters describe my-first-cluster --region=us-central1 --project=banded-edge-437103-i9
+gcloud dataproc clusters describe my-first-cluster --region=us-central1 --project=banded-edge-437103-i9 --format="get(config.gceClusterConfig.serviceAccount)"
+PROJECT_NUMBER-compute@developer.gserviceaccount.com
+gcloud iam service-accounts list --filter="email:compute@developer.gserviceaccount.com"
+ls
+cat input_data.csv
+clea
+clear
+gcloud config set project banded-edge-437103-i9
+ls
+clear
+ls
+pwd
+gsutil cp /home/youwantsomethings/https_operators_demo_dag.py  gs://us-central1-dagggssss-c84ad20e-bucket/dags

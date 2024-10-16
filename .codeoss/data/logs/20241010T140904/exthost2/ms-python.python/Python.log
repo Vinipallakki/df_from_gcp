@@ -1,0 +1,24 @@
+2024-10-10 15:05:03.995 [info] Default formatter is set to null for workspace /home/youwantsomethings
+2024-10-10 15:05:03.995 [info] Test server listening.
+2024-10-10 15:05:03.995 [info] Python interpreter path: ./beam_env/bin/python
+2024-10-10 15:05:04.270 [info] > pyenv which python
+2024-10-10 15:05:04.270 [info] cwd: .
+2024-10-10 15:05:09.513 [info] Starting Jedi language server for youwantsomethings.
+2024-10-10 15:06:37.335 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:06:40.551 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:06:43.348 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:06:45.951 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:06:47.731 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:06:49.874 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:06:50.262 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:06:50.525 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:06:50.779 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:07:15.143 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:07:30.232 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:07:30.743 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:11:15.090 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:11:23.632 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:11:26.206 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:13:40.750 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:13:41.022 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
+2024-10-10 15:13:41.330 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py

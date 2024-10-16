@@ -1,0 +1,36 @@
+
+<--- Last few GCs --->
+
+[2123:0x75a7e40]   762636 ms: Mark-sweep (reduce) 4072.9 (4143.7) -> 4072.1 (4143.4) MB, 6052.9 / 0.0 ms  (average mu = 0.094, current mu = 0.005) allocation failure; scavenge might not succeed
+[2123:0x75a7e40]   765689 ms: Mark-sweep (reduce) 4072.5 (4143.9) -> 4072.2 (4143.7) MB, 3051.0 / 0.0 ms  (average mu = 0.060, current mu = 0.000) allocation failure; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb85bc0 node::Abort() [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 2: 0xa94834  [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 3: 0xd66d10 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 4: 0xd670b7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 5: 0xf447c5  [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 6: 0xf456c8 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 7: 0xf55bd3  [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 8: 0xf56a48 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 9: 0xf313ae v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+10: 0xf32777 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+11: 0xf12cc0 v8::internal::Factory::AllocateRaw(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+12: 0xf0a28c v8::internal::FactoryBase<v8::internal::Factory>::AllocateRawArray(int, v8::internal::AllocationType) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+13: 0xf0a405 v8::internal::FactoryBase<v8::internal::Factory>::NewFixedArrayWithFiller(v8::internal::Handle<v8::internal::Map>, int, v8::internal::Handle<v8::internal::Oddball>, v8::internal::AllocationType) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+14: 0x10b9e72  [/google/devshell/editor/code-oss-for-cloud-shell/node]
+15: 0x10c37fc  [/google/devshell/editor/code-oss-for-cloud-shell/node]
+16: 0x10eb3d8  [/google/devshell/editor/code-oss-for-cloud-shell/node]
+17: 0x1150c7d v8::internal::JSObject::AddDataElement(v8::internal::Handle<v8::internal::JSObject>, unsigned int, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+18: 0x11b97c3 v8::internal::Object::AddDataProperty(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes, v8::Maybe<v8::internal::ShouldThrow>, v8::internal::StoreOrigin, v8::internal::EnforceDefineSemantics) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+19: 0x114bbc8 v8::internal::JSObject::DefineOwnPropertyIgnoreAttributes(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes, v8::Maybe<v8::internal::ShouldThrow>, v8::internal::JSObject::AccessorInfoHandling, v8::internal::EnforceDefineSemantics, v8::internal::StoreOrigin) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+20: 0x114c034 v8::internal::JSObject::CreateDataProperty(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::Maybe<v8::internal::ShouldThrow>) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+21: 0x114ea7f v8::internal::JSReceiver::CreateDataProperty(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::Maybe<v8::internal::ShouldThrow>) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+22: 0x12e77a8 v8::internal::Runtime_CreateDataProperty(int, unsigned long*, v8::internal::Isolate*) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+23: 0x1705b39  [/google/devshell/editor/code-oss-for-cloud-shell/node]
+[Error - 2:22:15 PM] Server process exited with signal SIGABRT.
+[Info  - 2:22:15 PM] Connection to server got closed. Server will restart.
+true

@@ -3,3 +3,6 @@
 2024-10-10 05:55:22.557 [info] Python interpreter path: ./beam_env/bin/python
 2024-10-10 05:55:23.772 [info] > pyenv which python
 2024-10-10 05:55:23.772 [info] cwd: .
+2024-10-10 05:55:29.761 [info] Starting Jedi language server for youwantsomethings.
+2024-10-10 05:59:52.494 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/test.py
+2024-10-10 05:59:53.083 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/test.py

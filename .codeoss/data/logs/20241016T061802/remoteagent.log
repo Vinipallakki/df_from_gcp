@@ -1,0 +1,13 @@
+2024-10-16 06:18:02.830 [info] 
+
+
+
+
+2024-10-16 06:18:02.861 [info] Extension host agent started.
+2024-10-16 06:18:04.197 [info] [127.0.0.1][6ca882e4][ManagementConnection] New connection established.
+2024-10-16 06:18:04.245 [info] [127.0.0.1][2a15071c][ExtensionHostConnection] New connection established.
+2024-10-16 06:18:05.176 [info] [127.0.0.1][2a15071c][ExtensionHostConnection] <1232> Launched Extension Host Process.
+2024-10-16 06:18:21.278 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/youwantsomethings/dataflow_python/6_SQL_Streaming_Analytics/lab' failed: No such file or directory (EUNKNOWN) (path: /home/youwantsomethings)
+2024-10-16 06:18:21.279 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/youwantsomethings/dataflow_python/6_SQL_Streaming_Analytics/lab' failed: No such file or directory
+2024-10-16 06:30:00.583 [info] [127.0.0.1][6ca882e4][ManagementConnection] The client has reconnected.
+2024-10-16 06:30:01.577 [info] [127.0.0.1][2a15071c][ExtensionHostConnection] The client has reconnected.

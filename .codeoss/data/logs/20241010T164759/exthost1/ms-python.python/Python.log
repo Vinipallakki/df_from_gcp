@@ -1,0 +1,7 @@
+2024-10-10 16:48:04.158 [info] Default formatter is set to null for workspace /home/youwantsomethings
+2024-10-10 16:48:04.158 [info] Test server listening.
+2024-10-10 16:48:04.158 [info] Python interpreter path: ./beam_env/bin/python
+2024-10-10 16:48:04.455 [info] > pyenv which python
+2024-10-10 16:48:04.455 [info] cwd: .
+2024-10-10 16:48:07.631 [info] Starting Jedi language server for youwantsomethings.
+2024-10-10 16:57:26.878 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py
