@@ -11,3 +11,6 @@
 2024-10-16 06:18:21.279 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/youwantsomethings/dataflow_python/6_SQL_Streaming_Analytics/lab' failed: No such file or directory
 2024-10-16 06:30:00.583 [info] [127.0.0.1][6ca882e4][ManagementConnection] The client has reconnected.
 2024-10-16 06:30:01.577 [info] [127.0.0.1][2a15071c][ExtensionHostConnection] The client has reconnected.
+2024-10-16 07:05:49.192 [info] [127.0.0.1][5a293e03][ManagementConnection] New connection established.
+2024-10-16 07:05:49.257 [info] [127.0.0.1][721f58a4][ExtensionHostConnection] New connection established.
+2024-10-16 07:05:49.265 [info] [127.0.0.1][721f58a4][ExtensionHostConnection] <7025> Launched Extension Host Process.

@@ -84,3 +84,5 @@
 
 2024-10-16 06:56:23.895 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "145"
 
+2024-10-16 06:59:36.485 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "156"
+
