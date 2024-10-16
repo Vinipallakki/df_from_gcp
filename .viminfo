@@ -12,7 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1728538213,,"wq"
+|2,0,1728719794,,"wq"
+:q
+|2,0,1728569659,,"q"
 
 # Search String History (newest to oldest):
 
@@ -25,210 +27,266 @@
 # Registers:
 
 # File marks:
-'0  13  0  ~/test.py
-|4,48,13,0,1728538213,"~/test.py"
-'1  51  0  ~/dataflow_etl.py
-|4,49,51,0,1728380880,"~/dataflow_etl.py"
-'2  3  0  ~/requirements.txt
-|4,50,3,0,1727770186,"~/requirements.txt"
-'3  27  0  ~/main.py
-|4,51,27,0,1727770145,"~/main.py"
-'4  9  49  ~/export_bq_to_gcs.py
-|4,52,9,49,1727770137,"~/export_bq_to_gcs.py"
-'5  9  50  ~/export_bq_to_gcs.py
-|4,53,9,50,1727769732,"~/export_bq_to_gcs.py"
+'0  12  0  ~/input_data.csv
+|4,48,12,0,1728719794,"~/input_data.csv"
+'1  65  0  ~/user_generator.py
+|4,49,65,0,1728569846,"~/user_generator.py"
+'2  19  1  ~/pub.sh
+|4,50,19,1,1728569770,"~/pub.sh"
+'3  15  35  ~/req.sh
+|4,51,15,35,1728569713,"~/req.sh"
+'4  175  0  ~/stream.py
+|4,52,175,0,1728569693,"~/stream.py"
+'5  349  252  ~/stream.py
+|4,53,349,252,1728569662,"~/stream.py"
+'6  175  252  ~/stream.py
+|4,54,175,252,1728569662,"~/stream.py"
+'7  13  0  ~/test.py
+|4,55,13,0,1728538213,"~/test.py"
+'8  51  0  ~/dataflow_etl.py
+|4,56,51,0,1728380880,"~/dataflow_etl.py"
+'9  3  0  ~/requirements.txt
+|4,57,3,0,1727770186,"~/requirements.txt"
 
 # Jumplist (newest first):
--'  13  0  ~/test.py
-|4,39,13,0,1728538213,"~/test.py"
--'  1  0  ~/test.py
-|4,39,1,0,1728538210,"~/test.py"
--'  51  0  ~/dataflow_etl.py
-|4,39,51,0,1728380880,"~/dataflow_etl.py"
--'  51  0  ~/dataflow_etl.py
-|4,39,51,0,1728380880,"~/dataflow_etl.py"
--'  1  0  ~/dataflow_etl.py
-|4,39,1,0,1728380873,"~/dataflow_etl.py"
--'  1  0  ~/dataflow_etl.py
-|4,39,1,0,1728380873,"~/dataflow_etl.py"
--'  3  0  ~/requirements.txt
-|4,39,3,0,1727770186,"~/requirements.txt"
--'  3  0  ~/requirements.txt
-|4,39,3,0,1727770186,"~/requirements.txt"
--'  3  0  ~/requirements.txt
-|4,39,3,0,1727770186,"~/requirements.txt"
--'  3  0  ~/requirements.txt
-|4,39,3,0,1727770186,"~/requirements.txt"
--'  1  0  ~/requirements.txt
-|4,39,1,0,1727770174,"~/requirements.txt"
--'  1  0  ~/requirements.txt
-|4,39,1,0,1727770174,"~/requirements.txt"
--'  1  0  ~/requirements.txt
-|4,39,1,0,1727770174,"~/requirements.txt"
--'  1  0  ~/requirements.txt
-|4,39,1,0,1727770174,"~/requirements.txt"
--'  27  0  ~/main.py
-|4,39,27,0,1727770145,"~/main.py"
--'  27  0  ~/main.py
-|4,39,27,0,1727770145,"~/main.py"
--'  27  0  ~/main.py
-|4,39,27,0,1727770145,"~/main.py"
--'  27  0  ~/main.py
-|4,39,27,0,1727770145,"~/main.py"
--'  27  0  ~/main.py
-|4,39,27,0,1727770145,"~/main.py"
--'  27  0  ~/main.py
-|4,39,27,0,1727770145,"~/main.py"
--'  27  0  ~/main.py
-|4,39,27,0,1727770145,"~/main.py"
--'  27  0  ~/main.py
-|4,39,27,0,1727770145,"~/main.py"
--'  1  0  ~/main.py
-|4,39,1,0,1727770142,"~/main.py"
--'  1  0  ~/main.py
-|4,39,1,0,1727770142,"~/main.py"
--'  1  0  ~/main.py
-|4,39,1,0,1727770142,"~/main.py"
--'  1  0  ~/main.py
-|4,39,1,0,1727770142,"~/main.py"
--'  1  0  ~/main.py
-|4,39,1,0,1727770142,"~/main.py"
--'  1  0  ~/main.py
-|4,39,1,0,1727770142,"~/main.py"
--'  1  0  ~/main.py
-|4,39,1,0,1727770142,"~/main.py"
--'  1  0  ~/main.py
-|4,39,1,0,1727770142,"~/main.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  49  ~/export_bq_to_gcs.py
-|4,39,9,49,1727770137,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  9  50  ~/export_bq_to_gcs.py
-|4,39,9,50,1727769732,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
--'  1  0  ~/export_bq_to_gcs.py
-|4,39,1,0,1727769600,"~/export_bq_to_gcs.py"
+-'  12  0  ~/input_data.csv
+|4,39,12,0,1728719794,"~/input_data.csv"
+-'  1  0  ~/input_data.csv
+|4,39,1,0,1728719788,"~/input_data.csv"
+-'  65  0  ~/user_generator.py
+|4,39,65,0,1728569846,"~/user_generator.py"
+-'  65  0  ~/user_generator.py
+|4,39,65,0,1728569846,"~/user_generator.py"
+-'  1  0  ~/user_generator.py
+|4,39,1,0,1728569827,"~/user_generator.py"
+-'  1  0  ~/user_generator.py
+|4,39,1,0,1728569827,"~/user_generator.py"
+-'  19  1  ~/pub.sh
+|4,39,19,1,1728569770,"~/pub.sh"
+-'  19  1  ~/pub.sh
+|4,39,19,1,1728569770,"~/pub.sh"
+-'  19  1  ~/pub.sh
+|4,39,19,1,1728569770,"~/pub.sh"
+-'  19  1  ~/pub.sh
+|4,39,19,1,1728569770,"~/pub.sh"
+-'  1  0  ~/pub.sh
+|4,39,1,0,1728569767,"~/pub.sh"
+-'  1  0  ~/pub.sh
+|4,39,1,0,1728569767,"~/pub.sh"
+-'  1  0  ~/pub.sh
+|4,39,1,0,1728569767,"~/pub.sh"
+-'  1  0  ~/pub.sh
+|4,39,1,0,1728569767,"~/pub.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569685,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  349  252  ~/stream.py
+|4,39,349,252,1728569662,"~/stream.py"
+-'  175  252  ~/stream.py
+|4,39,175,252,1728569662,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569633,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569633,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569633,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569633,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569633,"~/stream.py"
+-'  1  0  ~/stream.py
+|4,39,1,0,1728569633,"~/stream.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/input_data.csv
+	*	1728719794	0
+	"	12	0
+	^	12	0
+	.	11	32
+	+	11	32
+
+> ~/user_generator.py
+	*	1728569844	0
+	"	65	0
+	^	65	0
+	.	64	21
+	+	64	21
+
+> ~/pub.sh
+	*	1728569769	0
+	"	19	1
+	^	19	2
+	.	19	0
+	+	19	0
+
+> ~/req.sh
+	*	1728569713	0
+	"	15	35
+	^	15	36
+	.	15	0
+	+	15	0
+
+> ~/stream.py
+	*	1728569693	0
+	"	175	0
+	^	175	0
+	.	174	7
+	+	349	254
+	+	174	7
 
 > ~/test.py
 	*	1728538212	0

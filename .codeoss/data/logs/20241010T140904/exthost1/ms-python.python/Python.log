@@ -1,0 +1,24 @@
+2024-10-10 14:09:13.451 [info] Default formatter is set to null for workspace /home/youwantsomethings
+2024-10-10 14:09:13.451 [info] Test server listening.
+2024-10-10 14:09:13.451 [info] Python interpreter path: ./beam_env/bin/python
+2024-10-10 14:09:13.881 [info] > pyenv which python
+2024-10-10 14:09:13.881 [info] cwd: .
+2024-10-10 14:09:17.262 [info] Starting Jedi language server for youwantsomethings.
+2024-10-10 14:11:18.034 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:11:30.211 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:11:30.608 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:54:45.350 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:55:29.331 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:55:30.219 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:55:31.513 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:55:47.221 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:56:17.107 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:56:18.607 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:56:18.859 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:56:22.721 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:58:21.569 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 14:58:21.848 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 15:00:44.652 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 15:00:52.467 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 15:00:59.829 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py
+2024-10-10 15:01:10.401 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/.git/stream.py

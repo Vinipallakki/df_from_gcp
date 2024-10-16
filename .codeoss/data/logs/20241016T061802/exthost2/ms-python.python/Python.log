@@ -1,0 +1,6 @@
+2024-10-16 07:05:52.254 [info] Default formatter is set to null for workspace /home/youwantsomethings
+2024-10-16 07:05:52.254 [info] Test server listening.
+2024-10-16 07:05:52.254 [info] Python interpreter path: ./beam_env/bin/python
+2024-10-16 07:05:52.545 [info] > pyenv which python
+2024-10-16 07:05:52.545 [info] cwd: .
+2024-10-16 07:05:57.848 [info] Starting Jedi language server for youwantsomethings.
