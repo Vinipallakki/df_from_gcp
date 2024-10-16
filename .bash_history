@@ -389,3 +389,5 @@ clear
 ls
 pwd
 gsutil cp /home/youwantsomethings/https_operators_demo_dag.py  gs://us-central1-dagggssss-c84ad20e-bucket/dags
+ls
+gsutil cp /home/youwantsomethings/from-http-gcs.py  gs://banded-edge-437103-i9
