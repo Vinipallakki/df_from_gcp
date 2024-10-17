@@ -4,3 +4,21 @@
 2024-10-16 07:05:52.545 [info] > pyenv which python
 2024-10-16 07:05:52.545 [info] cwd: .
 2024-10-16 07:05:57.848 [info] Starting Jedi language server for youwantsomethings.
+2024-10-16 07:15:19.833 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 07:15:40.557 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 07:15:43.037 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 07:16:03.385 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 07:16:05.639 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/https_operators_demo_dag.py
+2024-10-16 07:16:37.334 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:16:40.325 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:16:40.652 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:16:46.042 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:16:48.918 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:16:52.498 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:16:52.805 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:16:53.110 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:19:00.084 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:19:00.738 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:19:01.102 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:20:27.168 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py
+2024-10-16 07:38:38.810 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/from-http-gcs.py

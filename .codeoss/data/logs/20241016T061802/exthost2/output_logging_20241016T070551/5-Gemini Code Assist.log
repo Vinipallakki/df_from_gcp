@@ -53,3 +53,69 @@ I1016 07:06:38.515670    8181 configuration.go:263] Configured settings for opts
 I1016 07:06:38.515709    8181 configuration.go:265] Configured settings for canCancelRequests: true
 I1016 07:06:38.515720    8181 configuration.go:267] Configured settings for contextPromptOpts: &{Endpoint:}
 I1016 07:11:16.800967    8181 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I1016 07:13:16.801335    8181 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 0 - New completion requested from language client at position {"line":55,"character":0}, triggerKind=1
+Completion Provider - completion # 0 - Completion result obtained from language client
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 1 - New completion requested from language client at position {"line":0,"character":1}, triggerKind=1
+Completion Provider - completion # 1 - Completion result obtained from language client
+Completion Provider - completion # 1 - Typed over previous completion
+Completion Provider - completion # 2 - New completion requested from language client at position {"line":0,"character":2}, triggerKind=1
+Completion Provider - completion # 2 - Completion result obtained from language client
+Completion Provider - completion # 2 - Typed over previous completion
+Completion Provider - completion # 3 - New completion requested from language client at position {"line":0,"character":3}, triggerKind=1
+Completion Provider - completion # 3 - Completion result obtained from language client
+Completion Provider - completion # 3 - Typed over previous completion
+Completion Provider - completion # 4 - New completion requested from language client at position {"line":0,"character":4}, triggerKind=1
+Completion Provider - completion # 4 - Completion result obtained from language client
+Completion Provider - completion # 4 - Typed over previous completion
+Completion Provider - completion # 5 - New completion requested from language client at position {"line":0,"character":5}, triggerKind=1
+Completion Provider - completion # 5 - Completion result obtained from language client
+Completion Provider - completion # 5 - Typed over previous completion
+Completion Provider - completion # 6 - New completion requested from language client at position {"line":0,"character":4}, triggerKind=1
+Completion Provider - completion # 6 - Completion result obtained from language client
+Completion Provider - completion # 6 - Typed over previous completion
+Completion Provider - completion # 7 - New completion requested from language client at position {"line":0,"character":3}, triggerKind=1
+Completion Provider - completion # 7 - Completion result obtained from language client
+Completion Provider - completion # 7 - Typed over previous completion
+Completion Provider - completion # 8 - New completion requested from language client at position {"line":0,"character":2}, triggerKind=1
+Completion Provider - completion # 8 - Completion result obtained from language client
+I1016 07:16:16.800856    8181 life_cycle.go:226] codeReportBasicEvery: recomputing codereportbasic metric
+I1016 07:16:16.800981    8181 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+Completion Provider - completion # 0 - Typed over previous completion
+Completion Provider - completion # 9 - New completion requested from language client at position {"line":0,"character":0}, triggerKind=1
+Completion Provider - completion # 9 - Completion result obtained from language client
+Completion Provider - completion # 9 - Typed over previous completion
+Completion Provider - completion # 10 - New completion requested from language client at position {"line":54,"character":34}, triggerKind=1
+Completion Provider - completion # 10 - Completion result obtained from language client
+Completion Provider - completion # 10 - Typed over previous completion
+Completion Provider - completion # 11 - New completion requested from language client at position {"line":35,"character":27}, triggerKind=1
+Completion Provider - completion # 11 - Completion result obtained from language client
+Completion Provider - completion # 11 - Typed over previous completion
+Completion Provider - completion # 12 - New completion requested from language client at position {"line":35,"character":28}, triggerKind=1
+Completion Provider - completion # 12 - Completion result obtained from language client
+Completion Provider - completion # 12 - Typed over previous completion
+Completion Provider - completion # 13 - New completion requested from language client at position {"line":35,"character":30}, triggerKind=1
+Completion Provider - completion # 13 - Completion result obtained from language client
+Completion Provider - completion # 13 - Typed over previous completion
+Completion Provider - completion # 14 - New completion requested from language client at position {"line":35,"character":31}, triggerKind=1
+Completion Provider - completion # 14 - Completion result obtained from language client
+Completion Provider - completion # 14 - Typed over previous completion
+Completion Provider - completion # 15 - New completion requested from language client at position {"line":35,"character":32}, triggerKind=1
+Completion Provider - completion # 15 - Completion result obtained from language client
+Completion Provider - completion # 15 - Typed over previous completion
+Completion Provider - completion # 16 - New completion requested from language client at position {"line":35,"character":35}, triggerKind=1
+Completion Provider - completion # 16 - Completion result obtained from language client
+Completion Provider - completion # 16 - Typed over previous completion
+Completion Provider - completion # 17 - New completion requested from language client at position {"line":35,"character":34}, triggerKind=1
+Completion Provider - completion # 17 - Completion result obtained from language client
+Completion Provider - completion # 17 - Typed over previous completion
+Completion Provider - completion # 18 - New completion requested from language client at position {"line":35,"character":35}, triggerKind=1
+Completion Provider - completion # 18 - Completion result obtained from language client
+Completion Provider - completion # 18 - Typed over previous completion
+Completion Provider - completion # 19 - New completion requested from language client at position {"line":35,"character":36}, triggerKind=1
+Completion Provider - completion # 19 - Completion result obtained from language client
+I1016 07:17:16.801004    8181 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I1016 07:19:16.801560    8181 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I1016 07:26:16.801711    8181 life_cycle.go:226] codeReportBasicEvery: recomputing codereportbasic metric

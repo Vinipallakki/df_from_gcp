@@ -389,3 +389,16 @@ clear
 ls
 pwd
 gsutil cp /home/youwantsomethings/https_operators_demo_dag.py  gs://us-central1-dagggssss-c84ad20e-bucket/dags
+ls
+gsutil cp /home/youwantsomethings/from-http-gcs.py  gs://banded-edge-437103-i9
+gsutil cp /home/youwantsomethings/from-http-gcs.py  gs://us-central1-dagggssss-c84ad20e-bucket/dags
+ls
+LS
+ls
+gsutil cp gs://us-central1-first-62967754-bucket/dags/airflow_monitoring.py
+pwd
+gsutil cp from-http-gcs.py gs://us-central1-first-62967754-bucket/dags/airflow_monitoring.py
+gsutil cp from-http-gcs.py gs://us-central1-first-62967754-bucket/dags
+pwd
+gsutil cp gs://banded-edge-437103-i9/stock_data.json /home/youwantsomethings
+ls

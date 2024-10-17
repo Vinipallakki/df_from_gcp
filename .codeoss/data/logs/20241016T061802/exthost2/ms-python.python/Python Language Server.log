@@ -5,3 +5,27 @@ WARNING:pygls.protocol:Cancel notification for unknown message id "2"
 
 2024-10-16 07:06:06.512 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "5"
 
+2024-10-16 07:15:40.251 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "63"
+
+2024-10-16 07:15:41.373 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "65"
+
+2024-10-16 07:15:42.363 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "66"
+
+2024-10-16 07:16:02.256 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "82"
+
+2024-10-16 07:16:46.216 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "102"
+
+2024-10-16 07:16:46.218 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "103"
+
+2024-10-16 07:16:46.220 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "101"
+
+2024-10-16 07:16:46.225 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "105"
+
+2024-10-16 07:16:46.225 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "104"
+
+2024-10-16 07:16:46.269 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "106"
+
+2024-10-16 07:16:46.274 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "109"
+
+2024-10-16 07:24:38.255 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "140"
+
