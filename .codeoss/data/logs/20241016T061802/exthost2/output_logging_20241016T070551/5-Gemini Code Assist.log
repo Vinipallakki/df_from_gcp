@@ -118,3 +118,4 @@ Completion Provider - completion # 19 - New completion requested from language c
 Completion Provider - completion # 19 - Completion result obtained from language client
 I1016 07:17:16.801004    8181 life_cycle.go:262] codeReportEvery: recomputing codereport metric
 I1016 07:19:16.801560    8181 life_cycle.go:262] codeReportEvery: recomputing codereport metric
+I1016 07:26:16.801711    8181 life_cycle.go:226] codeReportBasicEvery: recomputing codereportbasic metric
