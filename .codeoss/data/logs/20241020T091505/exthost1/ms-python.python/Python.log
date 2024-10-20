@@ -1,0 +1,35 @@
+2024-10-20 09:15:19.847 [info] Default formatter is set to null for workspace /home/youwantsomethings
+2024-10-20 09:15:19.847 [info] Test server listening.
+2024-10-20 09:15:19.847 [info] Python interpreter path: ./beam_env/bin/python
+2024-10-20 09:15:20.038 [info] > pyenv which python
+2024-10-20 09:15:20.039 [info] cwd: .
+2024-10-20 09:15:23.959 [info] Starting Jedi language server for youwantsomethings.
+2024-10-20 09:15:51.286 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:16:13.061 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:16:53.755 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:18:13.872 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:19:59.786 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:20:05.837 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:20:08.341 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:20:11.177 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:20:13.492 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:20:14.008 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:22:41.637 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:22:43.409 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:32:32.069 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:32:32.437 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:41:48.501 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 09:41:48.921 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:05:58.720 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:05:59.117 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:06:02.574 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:06:04.373 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:06:06.792 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:06:07.372 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:06:07.812 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:06:18.450 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:06:25.109 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:14:45.404 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:34:28.403 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:34:29.524 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py
+2024-10-20 10:34:30.126 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/etl_pipeline_dag.py

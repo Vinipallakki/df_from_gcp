@@ -402,3 +402,26 @@ gsutil cp from-http-gcs.py gs://us-central1-first-62967754-bucket/dags
 pwd
 gsutil cp gs://banded-edge-437103-i9/stock_data.json /home/youwantsomethings
 ls
+vi etl_pipeline_dag.py
+ls
+pwd
+gsutil /home/youwantsomethings/etl_pipeline_dag.py cp gs://us-central1-dagggsss-97712e34-bucket/dags
+gsutil etl_pipeline_dag.py cp gs://us-central1-dagggsss-97712e34-bucket/dags
+gsutils etl_pipeline_dag.py cp gs://us-central1-dagggsss-97712e34-bucket/dags
+clear
+ls
+pwd
+ls
+gsutil cp etl_pipeline_dag.py us-central1-dagggsss-97712e34-bucket/dags
+gsutil cp etl_pipeline_dag.py gs://us-central1-dagggsss-97712e34-bucket/dags
+cleaer
+clear
+ls
+gsutil cp etl_pipeline_dag.py gs://us-central1-dagggsss-97712e34-bucket/dags
+clear
+gsutil cp etl_pipeline_dag.py gs://us-central1-dagggsss-97712e34-bucket/dags
+LS
+ls
+gsutil cp etl_pipeline_dag.py gs://us-central1-dagggsss-c2e4cdb7-bucket/dags  
+clear
+gsutil cp etl_pipeline_dag.py gs://us-central1-dagggsss-c2e4cdb7-bucket/dags

@@ -1,9 +1,0 @@
-WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector
-Oct 09, 2024 6:06:40 AM org.apache.aries.spifly.BaseActivator log
-INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic
-Oct 09, 2024 6:06:40 AM org.apache.aries.spifly.BaseActivator log
-INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
-Oct 09, 2024 6:06:50 AM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start
-INFO: Starting com.microsoft.java.debug.plugin
-Oct 09, 2024 6:06:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 1

@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1728719794,,"wq"
+|2,0,1729415701,,"wq"
 :q
 |2,0,1728569659,,"q"
 
@@ -27,36 +27,52 @@
 # Registers:
 
 # File marks:
-'0  12  0  ~/input_data.csv
-|4,48,12,0,1728719794,"~/input_data.csv"
-'1  65  0  ~/user_generator.py
-|4,49,65,0,1728569846,"~/user_generator.py"
-'2  19  1  ~/pub.sh
-|4,50,19,1,1728569770,"~/pub.sh"
-'3  15  35  ~/req.sh
-|4,51,15,35,1728569713,"~/req.sh"
-'4  175  0  ~/stream.py
-|4,52,175,0,1728569693,"~/stream.py"
-'5  349  252  ~/stream.py
-|4,53,349,252,1728569662,"~/stream.py"
-'6  175  252  ~/stream.py
-|4,54,175,252,1728569662,"~/stream.py"
-'7  13  0  ~/test.py
-|4,55,13,0,1728538213,"~/test.py"
-'8  51  0  ~/dataflow_etl.py
-|4,56,51,0,1728380880,"~/dataflow_etl.py"
-'9  3  0  ~/requirements.txt
-|4,57,3,0,1727770186,"~/requirements.txt"
+'0  50  0  ~/etl_pipeline_dag.py
+|4,48,50,0,1729415701,"~/etl_pipeline_dag.py"
+'1  12  0  ~/input_data.csv
+|4,49,12,0,1728719794,"~/input_data.csv"
+'2  65  0  ~/user_generator.py
+|4,50,65,0,1728569846,"~/user_generator.py"
+'3  19  1  ~/pub.sh
+|4,51,19,1,1728569770,"~/pub.sh"
+'4  15  35  ~/req.sh
+|4,52,15,35,1728569713,"~/req.sh"
+'5  175  0  ~/stream.py
+|4,53,175,0,1728569693,"~/stream.py"
+'6  349  252  ~/stream.py
+|4,54,349,252,1728569662,"~/stream.py"
+'7  175  252  ~/stream.py
+|4,55,175,252,1728569662,"~/stream.py"
+'8  13  0  ~/test.py
+|4,56,13,0,1728538213,"~/test.py"
+'9  51  0  ~/dataflow_etl.py
+|4,57,51,0,1728380880,"~/dataflow_etl.py"
 
 # Jumplist (newest first):
+-'  50  0  ~/etl_pipeline_dag.py
+|4,39,50,0,1729415701,"~/etl_pipeline_dag.py"
+-'  1  0  ~/etl_pipeline_dag.py
+|4,39,1,0,1729415684,"~/etl_pipeline_dag.py"
 -'  12  0  ~/input_data.csv
 |4,39,12,0,1728719794,"~/input_data.csv"
+-'  12  0  ~/input_data.csv
+|4,39,12,0,1728719794,"~/input_data.csv"
+-'  1  0  ~/input_data.csv
+|4,39,1,0,1728719788,"~/input_data.csv"
 -'  1  0  ~/input_data.csv
 |4,39,1,0,1728719788,"~/input_data.csv"
 -'  65  0  ~/user_generator.py
 |4,39,65,0,1728569846,"~/user_generator.py"
 -'  65  0  ~/user_generator.py
 |4,39,65,0,1728569846,"~/user_generator.py"
+-'  65  0  ~/user_generator.py
+|4,39,65,0,1728569846,"~/user_generator.py"
+-'  65  0  ~/user_generator.py
+|4,39,65,0,1728569846,"~/user_generator.py"
+-'  1  0  ~/user_generator.py
+|4,39,1,0,1728569827,"~/user_generator.py"
+-'  1  0  ~/user_generator.py
+|4,39,1,0,1728569827,"~/user_generator.py"
 -'  1  0  ~/user_generator.py
 |4,39,1,0,1728569827,"~/user_generator.py"
 -'  1  0  ~/user_generator.py
@@ -69,6 +85,22 @@
 |4,39,19,1,1728569770,"~/pub.sh"
 -'  19  1  ~/pub.sh
 |4,39,19,1,1728569770,"~/pub.sh"
+-'  19  1  ~/pub.sh
+|4,39,19,1,1728569770,"~/pub.sh"
+-'  19  1  ~/pub.sh
+|4,39,19,1,1728569770,"~/pub.sh"
+-'  19  1  ~/pub.sh
+|4,39,19,1,1728569770,"~/pub.sh"
+-'  19  1  ~/pub.sh
+|4,39,19,1,1728569770,"~/pub.sh"
+-'  1  0  ~/pub.sh
+|4,39,1,0,1728569767,"~/pub.sh"
+-'  1  0  ~/pub.sh
+|4,39,1,0,1728569767,"~/pub.sh"
+-'  1  0  ~/pub.sh
+|4,39,1,0,1728569767,"~/pub.sh"
+-'  1  0  ~/pub.sh
+|4,39,1,0,1728569767,"~/pub.sh"
 -'  1  0  ~/pub.sh
 |4,39,1,0,1728569767,"~/pub.sh"
 -'  1  0  ~/pub.sh
@@ -93,6 +125,38 @@
 |4,39,15,35,1728569713,"~/req.sh"
 -'  15  35  ~/req.sh
 |4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  15  35  ~/req.sh
+|4,39,15,35,1728569713,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
+-'  1  0  ~/req.sh
+|4,39,1,0,1728569710,"~/req.sh"
 -'  1  0  ~/req.sh
 |4,39,1,0,1728569710,"~/req.sh"
 -'  1  0  ~/req.sh
@@ -141,6 +205,38 @@
 |4,39,175,0,1728569693,"~/stream.py"
 -'  175  0  ~/stream.py
 |4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
+-'  175  0  ~/stream.py
+|4,39,175,0,1728569693,"~/stream.py"
 -'  1  0  ~/stream.py
 |4,39,1,0,1728569685,"~/stream.py"
 -'  1  0  ~/stream.py
@@ -153,104 +249,15 @@
 |4,39,1,0,1728569685,"~/stream.py"
 -'  1  0  ~/stream.py
 |4,39,1,0,1728569685,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569685,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569685,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569685,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569685,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569685,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569685,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569685,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569685,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569685,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569685,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  349  252  ~/stream.py
-|4,39,349,252,1728569662,"~/stream.py"
--'  175  252  ~/stream.py
-|4,39,175,252,1728569662,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569633,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569633,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569633,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569633,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569633,"~/stream.py"
--'  1  0  ~/stream.py
-|4,39,1,0,1728569633,"~/stream.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/etl_pipeline_dag.py
+	*	1729415701	0
+	"	50	0
+	^	50	0
+	.	49	46
+	+	49	46
 
 > ~/input_data.csv
 	*	1728719794	0
