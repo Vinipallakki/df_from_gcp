@@ -38,3 +38,4 @@ Try `python -h' for more information.
 2024-11-12 07:32:13.170 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/main.py
 2024-11-12 07:32:14.183 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/main.py
 2024-11-12 07:33:59.902 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2024-11-12 07:36:27.531 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
