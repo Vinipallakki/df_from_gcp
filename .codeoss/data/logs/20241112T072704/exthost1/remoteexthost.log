@@ -16,3 +16,4 @@
 2024-11-12 07:32:04.228 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
 2024-11-12 07:32:04.230 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
 2024-11-12 07:32:05.609 [warning] [Decorations] CAPPING events from decorations provider vscode.git 20043
+2024-11-12 07:33:01.404 [warning] [Decorations] CAPPING events from decorations provider vscode.git 19984
