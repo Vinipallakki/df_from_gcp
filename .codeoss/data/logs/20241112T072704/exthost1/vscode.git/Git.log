@@ -146,3 +146,60 @@ Aborting
 2024-11-12 07:34:08.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dataproc_data refs/remotes/dataproc_data [4ms]
 2024-11-12 07:34:08.381 [info] > git config --get commit.template [20ms]
 2024-11-12 07:34:08.478 [info] > git status -z -uall [81ms]
+2024-11-12 07:34:12.018 [info] > git add -A -- . [94ms]
+2024-11-12 07:34:12.085 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [51ms]
+2024-11-12 07:34:12.103 [info] > git config --get commit.template [2ms]
+2024-11-12 07:34:12.140 [info] > git config --get commit.template [18ms]
+2024-11-12 07:34:12.141 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dataproc_data refs/remotes/dataproc_data [2ms]
+2024-11-12 07:34:12.239 [info] > git status -z -uall [82ms]
+2024-11-12 07:34:12.267 [info] > git push [3ms]
+2024-11-12 07:34:12.267 [info] fatal: The current branch dataproc_data has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dataproc_data
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+2024-11-12 07:34:12.301 [info] > git config --get commit.template [18ms]
+2024-11-12 07:34:12.302 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dataproc_data refs/remotes/dataproc_data [2ms]
+2024-11-12 07:34:12.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dataproc_data [3ms]
+2024-11-12 07:34:12.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dataproc_data [3ms]
+2024-11-12 07:34:12.399 [info] > git status -z -uall [82ms]
+2024-11-12 07:34:12.403 [info] > git config --local branch.dataproc_data.vscode-merge-base [6ms]
+2024-11-12 07:34:12.421 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/from-gcp-http refs/remotes/origin/from-gcp-http [2ms]
+2024-11-12 07:34:12.441 [info] > git merge-base refs/heads/dataproc_data refs/remotes/origin/from-gcp-http [2ms]
+2024-11-12 07:34:12.461 [info] > git rev-list --count --left-right refs/heads/dataproc_data...refs/remotes/origin/from-gcp-http [2ms]
+2024-11-12 07:34:13.556 [info] > git ls-files --stage -- /home/youwantsomethings/main.py [6ms]
+2024-11-12 07:34:13.574 [info] > git cat-file -s a4d2e08dbfaf3b14a35129c314c453686bdd4f56 [2ms]
+2024-11-12 07:34:13.651 [info] > git show --textconv :main.py [5ms]
+2024-11-12 07:35:33.815 [info] > git push -u origin dataproc_data [79230ms]
+2024-11-12 07:35:33.815 [info] remote: 
+remote: Create a pull request for 'dataproc_data' on GitHub by visiting:        
+remote:      https://github.com/Vinipallakki/df_from_gcp/pull/new/dataproc_data        
+remote: 
+To https://github.com/Vinipallakki/df_from_gcp.git
+ * [new branch]        dataproc_data -> dataproc_data
+2024-11-12 07:35:33.835 [info] > git config --get commit.template [2ms]
+2024-11-12 07:35:33.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dataproc_data refs/remotes/dataproc_data [3ms]
+2024-11-12 07:35:33.953 [info] > git status -z -uall [79ms]
+2024-11-12 07:35:33.977 [info] > git merge-base refs/heads/dataproc_data refs/remotes/origin/dataproc_data [6ms]
+2024-11-12 07:35:33.997 [info] > git rev-list --count --left-right refs/heads/dataproc_data...refs/remotes/origin/dataproc_data [2ms]
+2024-11-12 07:35:34.017 [info] > git diff --name-status -z --diff-filter=ADMR d1a95a29e3465b3df802481d1d8ae793935aed35...refs/remotes/origin/dataproc_data [2ms]
+2024-11-12 07:35:34.063 [info] > git merge-base refs/heads/dataproc_data refs/remotes/origin/dataproc_data [7ms]
+2024-11-12 07:35:34.099 [info] > git rev-list --count --left-right refs/heads/dataproc_data...refs/remotes/origin/dataproc_data [18ms]
+2024-11-12 07:35:34.101 [info] > git config --get commit.template [3ms]
+2024-11-12 07:35:34.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dataproc_data refs/remotes/dataproc_data [2ms]
+2024-11-12 07:35:34.226 [info] > git status -z -uall [86ms]
+2024-11-12 07:35:34.714 [info] > git check-ignore -v -z --stdin [6ms]
+2024-11-12 07:35:40.060 [info] > git config --get commit.template [19ms]
+2024-11-12 07:35:40.061 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dataproc_data refs/remotes/dataproc_data [2ms]
+2024-11-12 07:35:40.120 [info] > git ls-files --stage -- /home/youwantsomethings/main.py [10ms]
+2024-11-12 07:35:40.138 [info] > git cat-file -s a4d2e08dbfaf3b14a35129c314c453686bdd4f56 [2ms]
+2024-11-12 07:35:40.169 [info] > git status -z -uall [90ms]
+2024-11-12 07:35:40.220 [info] > git show --textconv :main.py [6ms]
+2024-11-12 07:36:16.296 [info] > git config --get commit.template [17ms]
+2024-11-12 07:36:16.297 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dataproc_data refs/remotes/dataproc_data [2ms]
+2024-11-12 07:36:16.397 [info] > git status -z -uall [82ms]
+2024-11-12 07:36:21.436 [info] > git config --get commit.template [18ms]
+2024-11-12 07:36:21.437 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dataproc_data refs/remotes/dataproc_data [2ms]
+2024-11-12 07:36:21.534 [info] > git status -z -uall [79ms]
