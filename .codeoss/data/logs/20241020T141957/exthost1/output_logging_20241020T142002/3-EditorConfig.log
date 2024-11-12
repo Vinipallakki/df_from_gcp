@@ -17,3 +17,11 @@ youwantsomethings/etl_pipeline_dag.py: {}
 youwantsomethings/etl_pipeline_dag.py: {}
 youwantsomethings/etl_pipeline_dag.py: {}
 youwantsomethings/etl_pipeline_dag.py: {}
+youwantsomethings/https_operators_demo_dag.py: {}
+youwantsomethings/stock_data.json: {}
+youwantsomethings/https_operators_demo_dag.py: {}
+youwantsomethings/etl_pipeline_dag.py: {}
+youwantsomethings/etl_pipeline_dag.py: {}
+youwantsomethings/from-http-gcs.py: {}
+youwantsomethings/input_data.csv: {}
+youwantsomethings/README-cloudshell.txt: {}

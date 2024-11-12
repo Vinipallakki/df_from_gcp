@@ -1,0 +1,18 @@
+2024-11-12 07:27:08.975 [info] Extension host with pid 1242 started
+2024-11-12 07:27:08.989 [info] Lock '/home/youwantsomethings/.codeoss/data/User/workspaceStorage/d048f6e/vscode.lock': Lock acquired.
+2024-11-12 07:27:09.094 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-12 07:27:09.218 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-12 07:27:09.219 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-12 07:27:11.928 [info] Eager extensions activated
+2024-11-12 07:27:11.928 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-11-12 07:27:11.929 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-11-12 07:27:11.929 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-11-12 07:27:11.930 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-12 07:27:11.931 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-12 07:27:14.489 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-12 07:27:14.490 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-12 07:27:14.491 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-12 07:32:02.286 [warning] [Decorations] CAPPING events from decorations provider vscode.git 19983
+2024-11-12 07:32:04.228 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-11-12 07:32:04.230 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-11-12 07:32:05.609 [warning] [Decorations] CAPPING events from decorations provider vscode.git 20043

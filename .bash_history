@@ -425,3 +425,21 @@ ls
 gsutil cp etl_pipeline_dag.py gs://us-central1-dagggsss-c2e4cdb7-bucket/dags  
 clear
 gsutil cp etl_pipeline_dag.py gs://us-central1-dagggsss-c2e4cdb7-bucket/dags
+ls
+ld
+ls
+clea
+vi pub.py
+python pub.py
+clear
+python pub.py
+clear
+vi employees.csv
+ls
+gsutil cp employees.csv gs://banded-edge-437103-i91
+ls
+pwd
+gsutils:// cp gs://banded-edge-437103-i9/main.py /home/youwantsomethings
+gsutil cp gs://banded-edge-437103-i9/main.py /home/youwantsomethings
+gsutil cp gs://banded-edge-437103-i9/mains.py /home/youwantsomethings
+ls

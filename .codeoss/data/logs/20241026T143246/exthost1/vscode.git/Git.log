@@ -1,0 +1,29 @@
+2024-10-26 14:32:51.867 [info] Log level: Info
+2024-10-26 14:32:51.867 [info] Validating found git in: "git"
+2024-10-26 14:32:51.867 [info] Using git "2.43.0" from "git"
+2024-10-26 14:32:51.867 [info] > git rev-parse --show-toplevel [26ms]
+2024-10-26 14:32:51.867 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-10-26 14:32:51.867 [info] Open repository: /home/youwantsomethings
+2024-10-26 14:32:51.867 [info] > git config --get commit.template [9ms]
+2024-10-26 14:32:51.867 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-26 14:32:54.464 [info] > git check-ignore -v -z --stdin [46ms]
+2024-10-26 14:32:54.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/from-gcp-http refs/remotes/from-gcp-http [2591ms]
+2024-10-26 14:32:54.466 [info] > git fetch [2623ms]
+2024-10-26 14:32:54.483 [info] > git rev-parse --show-toplevel [49ms]
+2024-10-26 14:32:54.485 [info] > git config --get commit.template [2ms]
+2024-10-26 14:32:54.523 [info] > git rev-parse --show-toplevel [22ms]
+2024-10-26 14:32:54.554 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/from-gcp-http refs/remotes/from-gcp-http [33ms]
+2024-10-26 14:32:54.555 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-26 14:32:54.556 [info] > git config --get commit.template [18ms]
+2024-10-26 14:32:54.587 [info] > git rev-parse --show-toplevel [17ms]
+2024-10-26 14:32:54.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/from-gcp-http refs/remotes/from-gcp-http [4ms]
+2024-10-26 14:32:54.623 [info] > git rev-parse --show-toplevel [17ms]
+2024-10-26 14:32:54.645 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-26 14:32:54.669 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-26 14:32:54.690 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-26 14:32:54.711 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-26 14:32:54.731 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-26 14:32:54.969 [info] > git check-ignore -v -z --stdin [13ms]
+2024-10-26 14:32:56.105 [info] > git status -z -uall [1484ms] (cancelled)
+2024-10-26 14:32:58.045 [info] > git show --textconv :pub.py [33ms]
+2024-10-26 14:32:58.140 [info] > git ls-files --stage -- /home/youwantsomethings/pub.py [99ms]

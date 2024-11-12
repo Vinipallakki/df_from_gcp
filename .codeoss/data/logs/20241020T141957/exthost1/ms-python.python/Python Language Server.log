@@ -1,0 +1,266 @@
+2024-10-20 15:04:58.023 [info] ERROR:pygls.protocol:Failed to handle request 33 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///home/youwantsomethings/from-http-gcs.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/cache.py", line 110, in wrapper
+    return dct[key]
+           ~~~^^^^^
+KeyError: (('py__file__',), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 442, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 207, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 185, in _document_symbol_range
+    end = name.get_definition_end_position()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+       ^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type
+    for value in self._name.infer():
+                 ^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 762, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+                                                                    ^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in import_module_by_names
+    import_module(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 124, in wrapper
+    stub = try_to_load_stub_cached(inference_state, import_names, python_value_set,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 146, in try_to_load_stub_cached
+    _try_to_load_stub(inference_state, import_names, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 194, in _try_to_load_stub
+    file_path = method()
+                ^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/value.py", line 312, in py__file__
+    return self.access_handle.py__file__()  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 387, in _workaround
+    return self._cached_results(name, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/cache.py", line 112, in wrapper
+    result = method(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 391, in _cached_results
+    return self._subprocess.get_compiled_method_return(self.id, name, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 130, in wrapper
+    result = self._compiled_subprocess.run(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 227, in run
+    return self._send(id(inference_state), function, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 270, in _send
+    raise result
+TypeError: Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 343, in listen
+    result = False, None, self._run(*payload)
+                          ^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 324, in _run
+    return function(inference_state, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/functions.py", line 26, in get_compiled_method_return
+    return getattr(handle.access, attribute)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/access.py", line 186, in py__file__
+    return Path(self._obj.__file__)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1164, in __init__
+    super().__init__(*args)
+  File "/usr/lib/python3.12/pathlib.py", line 373, in __init__
+    raise TypeError(
+TypeError: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'
+
+
+2024-10-20 15:04:58.028 [info] [Error - 3:04:58 PM] Request textDocument/documentSymbol failed.
+2024-10-20 15:04:58.028 [info]   Message: TypeError: Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 343, in listen
+    result = False, None, self._run(*payload)
+                          ^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 324, in _run
+    return function(inference_state, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/functions.py", line 26, in get_compiled_method_return
+    return getattr(handle.access, attribute)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/access.py", line 186, in py__file__
+    return Path(self._obj.__file__)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1164, in __init__
+    super().__init__(*args)
+  File "/usr/lib/python3.12/pathlib.py", line 373, in __init__
+    raise TypeError(
+TypeError: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 442, in document_symbol\n    document_symbols = jedi_utils.lsp_document_symbols(names)\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 207, in lsp_document_symbols\n    symbol_range = _document_symbol_range(name)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 185, in _document_symbol_range\n    end = name.get_definition_end_position()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position\n    if self.type in ("function", "class"):\n       ^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type\n    for value in self._name.infer():\n                 ^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer\n    return tree_name_to_values(\n           ^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper\n    return built_functions[public_name](*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper\n    return func(inference_state, context, tree_name)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper\n    result = func(inference_state, context, tree_name)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 762, in tree_name_to_values\n    types = imports.infer_import(context, tree_name)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import\n    _prepare_infer_import(module_context, tree_name)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import\n    return from_import_name, tuple(import_path), import_node.level, importer.follow()\n                                                                    ^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow\n    return import_module_by_names(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in import_module_by_names\n    import_module(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper\n    return built_functions[public_name](*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper\n    return callback(inference_state, import_names, module_context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 124, in wrapper\n    stub = try_to_load_stub_cached(inference_state, import_names, python_value_set,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 146, in try_to_load_stub_cached\n    _try_to_load_stub(inference_state, import_names, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 194, in _try_to_load_stub\n    file_path = method()\n                ^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/value.py", line 312, in py__file__\n    return self.access_handle.py__file__()  # type: ignore[no-any-return]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 387, in _workaround\n    return self._cached_results(name, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/cache.py", line 112, in wrapper\n    result = method(self, *args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 391, in _cached_results\n    return self._subprocess.get_compiled_method_return(self.id, name, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 130, in wrapper\n    result = self._compiled_subprocess.run(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 227, in run\n    return self._send(id(inference_state), function, args, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 270, in _send\n    raise result\n']}
+2024-10-20 15:04:58.292 [info] ERROR:pygls.protocol:Failed to handle request 35 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///home/youwantsomethings/from-http-gcs.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/cache.py", line 110, in wrapper
+    return dct[key]
+           ~~~^^^^^
+KeyError: (('py__file__',), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 442, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 207, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 185, in _document_symbol_range
+    end = name.get_definition_end_position()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+       ^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type
+    for value in self._name.infer():
+                 ^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 762, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+                                                                    ^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in import_module_by_names
+    import_module(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 124, in wrapper
+    stub = try_to_load_stub_cached(inference_state, import_names, python_value_set,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 146, in try_to_load_stub_cached
+    _try_to_load_stub(inference_state, import_names, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 194, in _try_to_load_stub
+    file_path = method()
+                ^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/value.py", line 312, in py__file__
+    return self.access_handle.py__file__()  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 387, in _workaround
+    return self._cached_results(name, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/cache.py", line 112, in wrapper
+    result = method(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 391, in _cached_results
+    return self._subprocess.get_compiled_method_return(self.id, name, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 130, in wrapper
+    result = self._compiled_subprocess.run(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 227, in run
+    return self._send(id(inference_state), function, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 270, in _send
+    raise result
+TypeError: Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 343, in listen
+    result = False, None, self._run(*payload)
+                          ^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 324, in _run
+    return function(inference_state, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/functions.py", line 26, in get_compiled_method_return
+    return getattr(handle.access, attribute)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/access.py", line 186, in py__file__
+    return Path(self._obj.__file__)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1164, in __init__
+    super().__init__(*args)
+  File "/usr/lib/python3.12/pathlib.py", line 373, in __init__
+    raise TypeError(
+TypeError: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'
+
+
+2024-10-20 15:04:58.295 [info] [Error - 3:04:58 PM] Request textDocument/documentSymbol failed.
+2024-10-20 15:04:58.295 [info]   Message: TypeError: Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 343, in listen
+    result = False, None, self._run(*payload)
+                          ^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 324, in _run
+    return function(inference_state, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/functions.py", line 26, in get_compiled_method_return
+    return getattr(handle.access, attribute)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/access.py", line 186, in py__file__
+    return Path(self._obj.__file__)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1164, in __init__
+    super().__init__(*args)
+  File "/usr/lib/python3.12/pathlib.py", line 373, in __init__
+    raise TypeError(
+TypeError: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n                                ^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 442, in document_symbol\n    document_symbols = jedi_utils.lsp_document_symbols(names)\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 207, in lsp_document_symbols\n    symbol_range = _document_symbol_range(name)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 185, in _document_symbol_range\n    end = name.get_definition_end_position()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position\n    if self.type in ("function", "class"):\n       ^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type\n    for value in self._name.infer():\n                 ^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer\n    return tree_name_to_values(\n           ^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper\n    return built_functions[public_name](*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper\n    return func(inference_state, context, tree_name)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper\n    result = func(inference_state, context, tree_name)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 762, in tree_name_to_values\n    types = imports.infer_import(context, tree_name)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import\n    _prepare_infer_import(module_context, tree_name)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import\n    return from_import_name, tuple(import_path), import_node.level, importer.follow()\n                                                                    ^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow\n    return import_module_by_names(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in import_module_by_names\n    import_module(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper\n    return built_functions[public_name](*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper\n    return callback(inference_state, import_names, module_context, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 124, in wrapper\n    stub = try_to_load_stub_cached(inference_state, import_names, python_value_set,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 146, in try_to_load_stub_cached\n    _try_to_load_stub(inference_state, import_names, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 194, in _try_to_load_stub\n    file_path = method()\n                ^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/value.py", line 312, in py__file__\n    return self.access_handle.py__file__()  # type: ignore[no-any-return]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 387, in _workaround\n    return self._cached_results(name, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/cache.py", line 112, in wrapper\n    result = method(self, *args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 391, in _cached_results\n    return self._subprocess.get_compiled_method_return(self.id, name, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 130, in wrapper\n    result = self._compiled_subprocess.run(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 227, in run\n    return self._send(id(inference_state), function, args, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 270, in _send\n    raise result\n']}

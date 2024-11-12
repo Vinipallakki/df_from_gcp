@@ -1,0 +1,53 @@
+2024-10-26 14:32:58.148 [info] Default formatter is set to null for workspace /home/youwantsomethings
+2024-10-26 14:32:58.148 [info] Test server listening.
+2024-10-26 14:32:58.148 [warning] Failed to check if /home/youwantsomethings/beam_env/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/youwantsomethings/beam_env/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/youwantsomethings/beam_env/bin/python'
+}
+2024-10-26 14:32:58.153 [warning] Identifier for virt-virtualenv failed to identify /home/youwantsomethings/beam_env/bin/python [Error: ENOENT: no such file or directory, scandir '/home/youwantsomethings/beam_env/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/youwantsomethings/beam_env/bin'
+}
+2024-10-26 14:32:58.186 [info] > ./beam_env/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-10-26 14:32:58.195 [error] Error: Command failed: /home/youwantsomethings/beam_env/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/youwantsomethings/beam_env/bin/python: No such file or directory
+
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:529:35)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/youwantsomethings/beam_env/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py'
+}
+2024-10-26 14:32:58.291 [info] > pyenv which python
+2024-10-26 14:32:58.291 [info] cwd: .
+2024-10-26 14:32:58.446 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-10-26 14:33:02.170 [info] > ./beam_env/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-10-26 14:33:02.255 [info] Starting Jedi language server for youwantsomethings.
+2024-10-26 14:33:02.287 [error] Error: Command failed: /home/youwantsomethings/beam_env/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/youwantsomethings/beam_env/bin/python: No such file or directory
+
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:529:35)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/youwantsomethings/beam_env/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py'
+}
+2024-10-26 14:33:04.601 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pub.py
+2024-10-26 14:33:06.515 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pub.py
+2024-10-26 14:33:07.723 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pub.py
+2024-10-26 14:33:08.032 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pub.py
+2024-10-26 14:33:10.080 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pub.py

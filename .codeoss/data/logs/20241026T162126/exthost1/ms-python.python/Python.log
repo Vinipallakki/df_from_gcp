@@ -1,0 +1,10 @@
+2024-10-26 16:21:31.640 [info] Default formatter is set to null for workspace /home/youwantsomethings
+2024-10-26 16:21:31.677 [info] Test server listening.
+2024-10-26 16:21:31.678 [info] Python interpreter path: /bin/python
+2024-10-26 16:21:31.953 [info] > pyenv which python
+2024-10-26 16:21:31.954 [info] cwd: .
+2024-10-26 16:21:36.299 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pub.py
+2024-10-26 16:21:36.377 [info] Starting Jedi language server for youwantsomethings.
+2024-10-26 16:24:42.121 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pub.py
+2024-10-26 16:24:43.725 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pub.py
+2024-10-26 16:24:44.068 [info] Discover tests for workspace name: youwantsomethings - uri: /home/youwantsomethings/pub.py
